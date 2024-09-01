@@ -57,7 +57,7 @@ if(verifAdmin || superUser) {
     repondre("Warn count is reset for this user")} else ( repondre('reply to a user by typing  .warn ou .warn reset'))
    
 }  else {
-    repondre('you are not admin')
+    repondre('you are not admin FUCK OFF')
 }
  
    });
