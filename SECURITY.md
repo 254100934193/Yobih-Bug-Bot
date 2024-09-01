@@ -1,4 +1,4 @@
-# Security Policy of CarlTech Codes 
+# Security Policy of YOBIH BUG BOT
 
 ## Supported Versions
 
