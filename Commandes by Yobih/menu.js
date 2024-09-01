@@ -1245,13 +1245,13 @@ const date = moment().format('DD/MM/YYYY');
 ┇  🔑 ignition : [${s.PREFIXE}]
 ┇  🚀 *Commands* : ${cm.length} 
 ┇  ⌚️ *Time* : ${temps}
-┇  🖥️ System : 𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗩1
-┇  📰 Bot ID : VZ67IPO
+┇  🖥️ System : YOBIH BUG BOT
+┇  📰 Bot ID : MUNGAI
 └─────═━┈┈━═─────⊷
 ┇  📼 *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 └─────═━┈┈━═─────⊷
 ╭━━━━━∙⋆⋅⋆∙━ ─┉─ • ─┉─⊷
-┇  🖥 *Devlp* : 𝗖𝗔𝗥𝗟 𝗪𝗜𝗟𝗟𝗜𝗔𝗠
+┇  🖥 *Devlp* : MUNGAI YOBIH
 ┇  🪀 *User* : ${s.OWNER_NAME}
 └──═━┈━═─ ═──═━┈━═─⊷
 ╒═════════════════○
@@ -1266,23 +1266,23 @@ const date = moment().format('DD/MM/YYYY');
 ┌─────═━┈┈━═─═━┈┈━═─────⊷
 『𝗦𝗨𝗣𝗣𝗢𝗥𝗧』
  🪀 Whatsapp:
- ✪https://wa.me/254770954948
+ ✪https://wa.me/254743436105
  📥 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :
- ⚉https://t.me.carlltecch
+ ⚉https://wa.me/254743436105
  🟢 WACHANNEL :
- ⚉https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h
+ ⚉https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g
  🐈‍⬛ 𝗚𝗜𝗧𝗛𝗨𝗕1:
- ⨀https://github.com/carl24tech 
-   𝗘𝗡𝗝𝗢𝗬 𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗩1
+ ⨀https://github.com/254100934193/Yobih-Bug-Bot
+   𝗘𝗡𝗝𝗢𝗬 YOBIH_BUG_BOT
 └─────═━┈┈━═──═━┈┈━═─────⊷
 
 
 
 ╭───────────────────❒
 │BOT COMMANDS❒⁠⁠⁠⁠
-│CYBERION❒⁠⁠
+│YOBIH BUG BOT❒⁠⁠
 ⁠⁠⁠⁠╰───────────────────❒
-> CARLTECH 
+> MUNGAI 
 `;
 
     for (const cat in coms) {
@@ -1303,7 +1303,7 @@ const date = moment().format('DD/MM/YYYY');
    *█✪█▓▓▓▓▓▓▓▓▓█✪█*
    *█✪█▓▓▓▓▓▓▓▓▓█✪█*   
           
-      *ᴄᴀʀʟᴛᴇᴄʜ 2024🏆* 
+      *MUNGAI YOBIH 2024🏆* 
 *❒───────────────────❒*
 `;
 
