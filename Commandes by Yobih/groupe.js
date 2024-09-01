@@ -32,7 +32,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   var tag = ""; 
   tag += `  
 ╭─────────────━┈⊷ 
-│🔰 𝐂𝐘𝐁𝐄𝐑𝐈𝐎𝐍-𝐕1 𝐓𝐀𝐆
+│🔰 YOBI_BUG_BOT TAG
 ╰─────────────━┈⊷ \n
 │👥 *Group* : ${nomGroupe} 
 │👤 *Hey😀* : *${nomAuteurMessage}* 
