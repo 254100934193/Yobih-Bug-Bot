@@ -96,7 +96,7 @@ Yobih bot one of the best bots in universe
 
 
 
-[![YOBIH BOT_MD](https://readme-typing-svg.demolab.com?font=Anton&size=30&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=340&lines=Have+a%F0%9F%91%8B!+Day;goodluck+on+your+deployment;programmed+by+Mungai+Yobih🥰)]
+[![YOBIH BOT_MD](https://readme-typing-svg.demolab.com?font=Anton&size=25&pause=998&color=F51FFF&background=F7F2F20A&vCenter=true&random=false&width=340&lines=Have+a%F0%9F%91%8B!+Day;goodluck+on+your+deployment;programmed+by+Mungai+Yobih🥰)]
 
   
 
