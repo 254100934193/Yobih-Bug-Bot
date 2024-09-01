@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("*Cyberion-V1 is rebooting...kindly be patient*");
+    repondre("*YOBIH BUG BOT is rebooting...kindly be patient*");
 
   exec("pm2 restart all");
   
