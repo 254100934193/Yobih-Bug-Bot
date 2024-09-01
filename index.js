@@ -428,7 +428,7 @@ function mybotpic() {
                                    // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
                                     const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
                                     var sticker = new Sticker(gifLink, {
-                                        pack: 'Ibrahim-Md',
+                                        pack: 'Yobih-Md',
                                         author: conf.OWNER_NAME,
                                         type: StickerTypes.FULL,
                                         categories: ['🤩', '🎉'],
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Ibrahim-Md',
+                pack: 'Yobih-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -688,11 +688,11 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ${metadata.desc}
 
-📌Powred by *CARLTECH*`;
+📌Powred by *YOBIH BOT MD*`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye to that Fallen soldier, Powered by *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡*;\n`;
+            let msg = `Goodbye to that Fallen soldier, Powered by *YOBIH BUG BOT*;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
@@ -858,14 +858,14 @@ ${metadata.desc}
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `
-*『𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡-𝗩1 CONNECTED 』*
+*『YOBIH_BUG_BOT CONNECTED 』*
 
  
 ┌─────═━┈┈━═─────┐    
-║❒Creator: *CARLTECH*
+║❒Creator: *YOBIH MUNGAI*
 ║❒Prefix : [ ${prefixe} ]
 ║❒Mode :${md}
-║❒Created on : *22.5.2024*
+║❒Created on : *15.8.2024*
 ║❒Total Commands : ${evt.cm.length}︎
 └─────═━┈┈━═─────┘
    
@@ -873,18 +873,18 @@ ${metadata.desc}
 
 
 ║❒ *JOIN OUR WhatsApp*
-https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h
+https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g
 
 ║❒ *CONTACT THE DEVELOPER* 🪄 
-https://wa.me/254770954948
+https://wa.me/254743436105
 
 ║❒ *TELEGRAM*
-https://t.me.carlltecch 
+https://wa.me/254743436105
 
 
 
 
-              *𝗖𝗬𝗕𝗘𝗥𝗜𝗢𝗡*`;
+              *YOBIH BUG BOT*`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
