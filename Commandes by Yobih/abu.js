@@ -35,24 +35,24 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*Hey there wanna support carltech* 😎
+*Hey there wanna support YOBIH MD* 😎
 
 
 *Any way just follow the following channels*
 
 
 *Whatsapp channel*
-> https://whatsapp.com/channel/0029Vak0genJ93wQXq3q6X3h
+> https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g
 
-*Telegram*
-> https://t.me.carlltecch 
+*WHATSAAP*
+> https://wa.me/254743436105
 
 *For more info*
-> https://github.com/Carl165/CARLTECH-INFO 
+> https://wa.me/254743436105 
   `;
     
 let menuMsg = `
-> ©Carltech
+> ©YOBIH MUNGAI
 `;
 
    var lien = mybotpic();
@@ -69,7 +69,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper YOBIH Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -121,7 +121,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *BMW MD IMPORTANT INFO* 
+   *BMW MD IMPORTANT INFO BROUGHT TO YOU BY YOBIH* 
 ❒───────────────────❒
 *GITHUB LINK*
 > https://github.com/ibrahimaitech/BMW-MD
@@ -133,12 +133,12 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *Ibrahim Adams*
+│❒⁠⁠⁠⁠ *DEV* : *MUNGAI YOBIH*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬
+     𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬 CREDITS TO YOBIH
 
 ❒────────────────────❒`;
 
