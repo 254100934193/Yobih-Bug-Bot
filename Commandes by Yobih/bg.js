@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-┏❏ ⌜ *Cyberion V1 CRASHER* ⌟  ❐
+┏❏ ⌜ *YOBIH BUG BOT CRASHER* ⌟  ❐
 ❐ bug
 ❐ crash
 ❐ loccrash
@@ -65,8 +65,8 @@ let menuMsg = `
 
 
 ╭───────────────────❒
-│Credit to devibraah❒⁠⁠⁠⁠
-│CARLTECH❒⁠⁠
+│Credit to MUNGAI❒⁠⁠⁠⁠
+│YOBIH MD❒⁠⁠
 ⁠⁠⁠⁠╰───────────────────❒
 
 > Lol just a reminder mehn this menu is meant to work on scammers destroy their fucking whatsapps and destroy their phones
