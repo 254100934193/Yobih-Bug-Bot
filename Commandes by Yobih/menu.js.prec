@@ -41,7 +41,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
     const date = moment.tz("africa/nairobi").format("DD/MM/YYYY");
     console.log("date" + date);
     console.log("temps " + temps);
-    let menuMsg = "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n";
+    let menuMsg = "  ╩═══ * YOBIH BUG BOT * ╩═══\n\n";
     /*menuMsg+=`
     
     
@@ -54,7 +54,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
       
     ╚═════ ✨✨ ☬ ✨✨ ═════╝*/
     /* menuMsg+=`
-   ╔════\☆✨️ĆÅŘŁ-ŜĤÅŘK MÐ/════╗
+   ╔════\☆✨️YOBIH-BUG BOT/════╗
   
    ||     Prefix : ${s.prefixe}
    ||      Owner : ${s.OWNER_NAME}
@@ -66,7 +66,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||
    ╚════ ✨✨ ☬ ✨✨ ════╝`;*/
     menuMsg += `
-╔════----*ÇÅŘŁ-TEÇĤ-----
+╔════----*MUNGAI-YOBIH-----
 ║    Prefix : ${s.PREFIXE}
 ║    Owner : ${s.OWNER_NAME}    
 ║    Mode : ${mode}
@@ -75,7 +75,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
 ║    Hour: ${temps}
 ║    Mém : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ║    Platform : ${os.platform()}
-║    Déveloper : CARL WILLIAM 
+║    Déveloper : BRIAN MUNGAI MUGUCHIA
 ╚════--------------- \n\n`;
     for (const cat in coms) {
         if (!emoji[cat]) {
@@ -135,7 +135,7 @@ var tt=[]
 
     var link = "https://wallpapercave.com/uwp/uwp3860299.jpeg"
     // var listCom =listeCommande()
-    let msg= "  ╩═══ * Ƶ𝓞ｋØ𝓊 * ╩═══\n\n"
+    let msg= "  ╩═══ * YOBIH * ╩═══\n\n"
 
 
 //const listeCommande= async ()=> {
