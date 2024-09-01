@@ -247,8 +247,8 @@
 
 
 {
-    "name": "Cyberion-V1",
-  "version": "2.0.0",
+    "name": "Yobih Bug Bot",
+  "version": "2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -259,13 +259,13 @@
   "keywords": [
     "bot",
     "Baileys",
-    "carl",
+    "Yobih",
     "whatsapp",
     "whatsapp-bot",
-    "ibraah"
+    "Mungai"
   ],
-  "author": "carl24tech",
-  "license": "ISC",
+  "author": "Mungai",
+  "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@hapi/boom": "^10.0.1",
