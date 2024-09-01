@@ -31,7 +31,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────《CYBERION-V1》────☣
+╭────《YOBIH_BUG_BOT》────☣
 |🔱 *User* : ${s.OWNER_NAME}
 |🔱 *Mode* : ${mode}
 |🔱 *Commands* : ${cm.length} 
