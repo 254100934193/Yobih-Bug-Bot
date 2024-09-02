@@ -69,7 +69,7 @@ const handler = async (m, {
 
     const result = await searchAndDownloadMusic(text);
 
-    const infoText = `🎧🎼『 *YOBIH PLAYER* 』🎼🎧
+    const infoText = `🎧🎼『 *YOBIH BUG BOT PLAYER* 』🎼🎧
 
 
 
