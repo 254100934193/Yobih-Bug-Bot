@@ -1259,7 +1259,7 @@ const date = moment().format('DD/MM/YYYY');
 ┇  🛡️ Security : encrypted
 ┇  📡 *Platform* : ${os.platform}
 ┇  🗺️ Region : Kenya
-┇  ☋️ Version : [5.1.×]
+┇  ☋️ Version : [LATEST 2024]
 ╘═════════════════○  \n\n`;
  
     let menuMsg=` 
@@ -1272,7 +1272,7 @@ const date = moment().format('DD/MM/YYYY');
  🟢 WACHANNEL :
  ⚉https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g
  🐈‍⬛ 𝗚𝗜𝗧𝗛𝗨𝗕1:
- ⨀https://github.com/254100934193/Yobih-Bug-Bot
+ ⨀Yobihh-Bugg-Bott CLONNERS I'M SORRY BUT ALSO I'M ENCRYPTED BY MUNGAI
    𝗘𝗡𝗝𝗢𝗬 YOBIH_BUG_BOT
 └─────═━┈┈━═──═━┈┈━═─────⊷
 
