@@ -62,7 +62,7 @@ zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions
    ||      Date : ${date}
    ||      Hour : ${temps}
    ||      Mém: ${format(os.totalmem()-os.freemem())}/${format(os.totalmem())}                   {Plateforme : ${os.platform()}
-   ||  Developer :CARL WILLIAM 
+   ||  Developer :MUNGAI YOBIH 
    ||
    ╚════ ✨✨ ☬ ✨✨ ════╝`;*/
     menuMsg += `
