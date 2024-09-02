@@ -69,7 +69,7 @@ let menuMsg = `
 │YOBIH MD❒⁠⁠
 ⁠⁠⁠⁠╰───────────────────❒
 
-> Lol just a reminder mehn this menu is meant to work on scammers destroy their fucking whatsapps and destroy their phones
+> Lol just a reminder mehn this menu is meant to work on scammers destroy their fucking whatsapps and destroy their phones NEVER BUG MUNGAI YOBIH OTHERWISE YOU'LL CRY TO HELL.
 
  `;
 
