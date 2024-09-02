@@ -71,14 +71,14 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("there is no alive for YOBIH BUG BOT") ; return};
 
       await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake things :)")
+         repondre("don't do fake things STUPID NIGGAH :)")
      }
  } else {
 
-    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
+    if(!superUser) { repondre ("Only the owner can  modify the alive GO AND MODIFY YOUR BRAIN SILLY IDIOT") ; return};
 
   
     const texte = arg.join(' ').split(';')[0];
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('message alive refresh successfully')
+repondre('message alive refresh successfully YOBIH BUG BOT')
 
 }
     });
