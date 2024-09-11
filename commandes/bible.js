@@ -18,7 +18,7 @@ zokou({
     return respond("Please specify the chapter number or name. Example: bible john 3:16");
   }
   let data = await response.json();
-  let replyText = "📖 *THE HOLY BIBLE*\n\n📜 *_WE'RE READING:_* " + data.reference + "\n\n🔢 *_NUMBER OF VERSES:_* " + data.verses.length + "\n\n🤍 *_NOW READ:_* " + data.text + "\n\n🌍 *_LANGUAGE_:* " + data.translation_name + "\n\n\n╭────────────────◆\n│ *_Engine by BERA_TECH._*\n╰─────────────────◆";
+  let replyText = "📖 *THE HOLY BIBLE*\n\n📜 *_WE'RE READING:_* " + data.reference + "\n\n🔢 *_NUMBER OF VERSES:_* " + data.verses.length + "\n\n🤍 *_NOW READ:_* " + data.text + "\n\n🌍 *_LANGUAGE_:* " + data.translation_name + "\n\n\n╭────────────────◆\n│ *_Engine by MUNGAI YOBIH._*\n╰─────────────────◆";
   await respond(replyText);
 });
 
@@ -53,7 +53,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const factResponse = await fetch("https://nekos.life/api/v2/fact");
   const factData = await factResponse.json();
-  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇* Engine by *Marisel*\n\n╔═════◇\n║◇ *KEEP USING BUGATTI*\n╚════════════════════> ");
+  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇* Engine by *Marisel*\n\n╔═════◇\n║◇ *KEEP USING YOBIH BUG BOT*\n╚════════════════════> ");
 });
 
 zokou({
@@ -64,7 +64,7 @@ zokou({
   const { repondre: respond, arg: arguments, ms: metadata } = args;
   const quoteResponse = await fetch("https://favqs.com/api/qotd");
   const quoteData = await quoteResponse.json();
-  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *BERA_TECH*\n\n\n╔═════◇\n║◇ *KEEP USING TREX-MD*\n╚════════════════════> ";
+  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *MUNGAI YOBIH*\n\n\n╔═════◇\n║◇ *KEEP USING YOBIH BUG BOT*\n╚════════════════════> ";
   respond(quoteMessage);
 });
 
