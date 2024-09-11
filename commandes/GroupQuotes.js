@@ -19,7 +19,7 @@ zokou({ nomCom: 'quote', categorie: 'Group' }, async (dest, zk, commandeOptions)
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *Bugatti*`);
+Powered by *BRIAN*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
@@ -37,7 +37,7 @@ Powered by *Bugatti*`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *Bugatti*`);
+Powered by *MUNGAI*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
