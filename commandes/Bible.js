@@ -1,45 +1,52 @@
-const Bible = require("bible.js");
+import fetch from 'node-fetch';
+import { translate } from '@vitalets/google-translate-api';
 
-// Init Bible
-Bible.init({
-    versions: {
-        en: {
-            source: "https://github.com/BibleJS/bible-english"
-          , version: "master"
-          , language: "en"
-        },
-        ro: {
-            source: "https://github.com/BibleJS/bible-romanian"
-          , version: "master"
-          , language: "ro"
-        }
-    }
-}, err => {
-    if (err) { throw err; }
+const BASE_URL = 'https://bible-api.com';
 
-    // Create Bible instances
-    const displayVerses = lang => {
-        return (err, data) => {
-            if (err) { throw err; }
+let bibleChapterHandler = async (m, { conn }) => {
+  try {
+    // Extract the chapter number or name from the command text.
+    let chapterInput = m.text.split(' ').slice(1).join('').trim();
 
-            console.log("-------------");
-
-            (data || []).forEach(c => {
-                console.log(c.verse + " | " + c.text);
-            })
-
-            console.log("-------------\n");
-        }
+    if (!chapterInput) {
+      throw new Error(`Please specify the chapter number or name. Example: -bible john 3:16`);
     }
 
-    // Get a specific Bible verse in English
-    const enBible = new Bible({ language: "en" })
-    enBible.get("Psalm 1:1-6", displayVerses("en"));
+    // Encode the chapterInput to handle special characters
+    chapterInput = encodeURIComponent(chapterInput);
 
-    // Get a specific Bible verse in Romanian
-    const roBible = new Bible({ language: "ro" })
-    roBible.get("Psalmii 1:1-6", displayVerses("ro"));
+    // Make an API request to fetch the chapter information.
+    let chapterRes = await fetch(`${BASE_URL}/${chapterInput}`);
+    
+    if (!chapterRes.ok) {
+      throw new Error(`Please specify the chapter number or name. Example: -bible john 3:16`);
+    }
 
-    // Search
-    roBible.search("/meroza/gi", displayVerses("ro"));
-});
+    let chapterData = await chapterRes.json();
+
+    let translatedChapterHindi = await translate(chapterData.text, { to: 'hi', autoCorrect: true });
+
+    let translatedChapterEnglish = await translate(chapterData.text, { to: 'en', autoCorrect: true });
+
+    let bibleChapter = `
+📖 *The Holy Bible*\n
+📜 *Chapter ${chapterData.reference}*\n
+Type: ${chapterData.translation_name}\n
+Number of verses: ${chapterData.verses.length}\n
+🔮 *Chapter Content (English):*\n
+${translatedChapterEnglish.text}\n
+🔮 *Chapter Content (Hindi):*\n
+${translatedChapterHindi.text}`;
+
+    m.reply(bibleChapter);
+  } catch (error) {
+    console.error(error);
+    m.reply(`Error: ${error.message}`);
+  }
+};
+
+bibleChapterHandler.help = ['bible [chapter_number|chapter_name]'];
+bibleChapterHandler.tags = ['religion'];
+bibleChapterHandler.command = ['bible', 'chapter'];
+
+export default bibleChapterHandler;
