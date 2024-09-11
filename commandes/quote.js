@@ -87,7 +87,7 @@ Powered by *MUNGAI YOBIH*`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by CARL-MD`);
+Powered by Yobih bug bot`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
