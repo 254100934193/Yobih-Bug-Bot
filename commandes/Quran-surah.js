@@ -1,3 +1,11 @@
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+const Genius = require("genius-lyrics");
+const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
+
+
+
+
 import fetch from 'node-fetch';
 import { translate } from '@vitalets/google-translate-api';
 
