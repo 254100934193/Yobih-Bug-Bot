@@ -1,3 +1,7 @@
+
+
+const fetch = async (...args) => import("node-fetch").then(({default: fetch}) => fetch(...args));
+
 const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const Genius = require("genius-lyrics");
