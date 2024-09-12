@@ -1,76 +1,57 @@
+const { zokou } = require('../framework/zokou');
+const traduire = require("../framework/traduction") ;
+const s = require('../set');
+const axios = require('axios');
 
+/* 
+Created By MUNGAI YOBIH 
+Don't claim, okey 
+*/
 
+zokou({nomCom:"gpt4",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
+  const {repondre,ms,arg}=commandeOptions;
+  
+async function gpt4(q) {
+  const headers = {
+    'Content-Type': 'application/json',
+    'Referer': 'https://chatgpt4online.org/',
+    'Sec-Ch-Ua': '"Not/A)Brand";v="8", "Chromium";v="126", "Google Chrome";v="126"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+    'X-Wp-Nonce': '152990aad3'
+  };
 
+  const params = {
+    "botId": "default",
+    "customId": null,
+    "session": "N/A",
+    "chatId": "r20gbr387ua",
+    "contextId": 58,
+    "messages": [
+      {
+        "id": "0aqernpzbas7",
+        "role": "assistant",
+        "content": "Hi! How can I help you?",
+        "who": "AI: ",
+        "timestamp": 1719360952775
+      }
+    ],
+    "newMessage": q,
+    "newFileId": null,
+    "stream": false
+  };
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const { bot, getGPTResponse, getDallEResponse } = require('../lib')
-
-bot(
-  {
-    pattern: 'gpt ?(.*)',
-    fromMe: true,
-    desc: 'ChatGPT fun',
-    type: 'AI',
-  },
-  async (message, match) => {
-    match = match || message.reply_message.text
-    if (!match) return await message.send('*Example : gpt What is the capital of France?*')
-    const res = await getGPTResponse(match)
-    await message.send(res, { quoted: message.data })
+  try {
+    const response = await axios.post("https://chatgpt4online.org/wp-json/mwai-ui/v1/chats/submit", params, { headers });
+    console.log('Response:', response.data);
+  } catch (error) {
+    console.error('Error:', error);
   }
-)
+}
 
-bot(
-  {
-    pattern: 'dall ?(.*)',
-    fromMe: true,
-    desc: 'dall image generator',
-    type: 'AI',
-  },
-  async (message, match) => {
-    if (!match)
-      return await message.send(
-        '*Example : dall a close up, studio photographic portrait of a white siamese cat that looks curious, backlit ears*'
-      )
-    const res = await getDallEResponse(match)
-    await message.sendFromUrl(res)
-  }
-)
+gpt4('kapan kamu di update??');
+
+Feature: Chat Gpt 4
+Reason: -
