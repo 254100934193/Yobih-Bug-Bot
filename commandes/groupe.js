@@ -1,1 +1,989 @@
-const _0x5a877f=_0x3943;(function(_0x3d8ee1,_0x2fa532){const _0xdb9915=_0x3943,_0x3de2f3=_0x3d8ee1();while(!![]){try{const _0xe3295c=-parseInt(_0xdb9915(0x1e2))/0x1+parseInt(_0xdb9915(0x1ec))/0x2*(parseInt(_0xdb9915(0x1cc))/0x3)+parseInt(_0xdb9915(0x1e8))/0x4+-parseInt(_0xdb9915(0x1f2))/0x5+parseInt(_0xdb9915(0x1d0))/0x6+parseInt(_0xdb9915(0x1ff))/0x7+-parseInt(_0xdb9915(0x1f4))/0x8;if(_0xe3295c===_0x2fa532)break;else _0x3de2f3['push'](_0x3de2f3['shift']());}catch(_0x2e12d8){_0x3de2f3['push'](_0x3de2f3['shift']());}}}(_0x1636,0xdcce2));function _0x3943(_0x34796a,_0x47f046){const _0x163614=_0x1636();return _0x3943=function(_0x39436b,_0x5e5ace){_0x39436b=_0x39436b-0x1c2;let _0xe10dc9=_0x163614[_0x39436b];return _0xe10dc9;},_0x3943(_0x34796a,_0x47f046);}function _0x1d34(_0x150123,_0x48424c){const _0x2cb633=_0x3438();return _0x1d34=function(_0xacfb8,_0x15f410){_0xacfb8=_0xacfb8-0x1d3;let _0x3ff29b=_0x2cb633[_0xacfb8];return _0x3ff29b;},_0x1d34(_0x150123,_0x48424c);}function _0x1636(){const _0x333098=['../framework/zokou','14061640KRsXvl','*\x0a\x0aresultat\x20:\x20il\x20y\x27a\x20donc\x20match\x20nul','*\x0a\x0a*result\x20:*\x20@','question','\x20to\x20play\x20the\x20rock-paper-scissors\x20game;\x0a\x20\x20\x20\x20\x20\x20\x20\x20To\x20accept\x20the\x20challenge,\x20type\x20yes','axios','category','\x20choose\x20*','42fNRWEd','\x0a*player\x202\x20:*\x20@','message','You\x20have\x203\x20choices;\x0a\x0a\x20\x20\x20\x20\x20\x20rock\x0a\x20\x20\x20\x20\x20\x20paper\x0a\x20\x20\x20\x20\x20\x20scissors\x0a\x20\x20\x20\x0a\x20\x20\x20Please\x20send\x20your\x20choice','voici\x20le\x20message\x20de','274IyInSX','shift','push','yes','522395jWuaKh','error','8rjVTwo','\x20:*\x20','67143dCPuzD','data','invitation\x20refused','paper','6748332MgiLKK','split','length','answer','4630283zmVpcU','text','587897Ikrjry','includes','\x20choose)\x20*','log','quizz','*\x20\x0a*joueur\x202\x20:*\x20@','awaitForMessage','badAnswers','chifumi','\x0a\x0a*Rules:*\x20The\x20game\x20will\x20start\x20soon;\x20you\x20have\x20a\x20maximum\x20of\x201\x20minute\x20each\x20to\x20make\x20a\x20choice\x20in\x20our\x20private\x20chat;','https://quizzapi.jomoreschi.fr/api/v1/quiz?limit=1&difficulty=facile','Great\x20,\x20good\x20answer\x20;','1246661ubriTW','\x20Please\x20go\x20to\x20this\x20chat\x20to\x20make\x20a\x20choice\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20https://wa.me/','\x20invites\x20@','quizzes','\x20a\x20choisi(e)\x20*','\x20\x20\x20\x20\x20YOBIH\x20MD-Quizz-Games\x0a\x0a*Category\x20:*\x20','6835552jJbWvv','644067GElecS','2258504NcFvhx','../framework/traduction','78sfHYTO','random','toLowerCase','Games','sendMessage','\x0a*joueur\x202\x20:*\x20@','6225825MyEbYd','floor','16652504OamgTv','*player\x201\x20:*\x20@','\x20took\x20too\x20long\x20to\x20respond\x20to\x20the\x20invitation\x20from\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20@','\x0a\x0a*result\x20:*\x20Our\x20players\x20took\x20too\x20long\x20to\x20decide;\x0aTherefore,\x20the\x20game\x20is\x20canceled\x0a','\x0a*Question\x20:*\x20','get','scissors','rock','\x0aSend\x20the\x20number\x20off\x20right\x20answers','*\x20\x0a*player\x202\x20:*\x20@','\x20;\x0aTherefore,\x20the\x20game\x20is\x20canceled','12399366auxmIC','Timeout','\x20win\x20','extendedTextMessage','slice'];_0x1636=function(){return _0x333098;};return _0x1636();}const _0x42c380=_0x1d34;function _0x3438(){const _0x2669c3=_0x3943,_0x2e8b0d=[_0x2669c3(0x1f5),_0x2669c3(0x1d8),_0x2669c3(0x20f),_0x2669c3(0x1c8),_0x2669c3(0x20b),_0x2669c3(0x1fd),_0x2669c3(0x1e3),'\x20win\x20',_0x2669c3(0x207),_0x2669c3(0x1d9),'conversation','bad\x20answer',_0x2669c3(0x1e5),'push',_0x2669c3(0x1ea),_0x2669c3(0x1f8),_0x2669c3(0x20d),_0x2669c3(0x1e9),'Chifumi\x20\x20is\x20an\x20rock-paper-scissors\x20games\x20;\x20you\x20need\x20a\x20friend\x20too\x20play\x20,\x20mention\x20his/her\x20message\x20when\x20sending\x20chifumi\x20to\x20invite\x20him/her',_0x2669c3(0x200),_0x2669c3(0x1e0),'paper',_0x2669c3(0x1db),_0x2669c3(0x1c7),_0x2669c3(0x1d5),'*joueur\x201\x20:*\x20@',_0x2669c3(0x1ed),_0x2669c3(0x1fa),_0x2669c3(0x1d7),_0x2669c3(0x203),_0x2669c3(0x1dc),_0x2669c3(0x1f1),_0x2669c3(0x1f6),'15285qgbkhF',_0x2669c3(0x1f7),_0x2669c3(0x1fc),_0x2669c3(0x208),_0x2669c3(0x1d6),_0x2669c3(0x1eb),_0x2669c3(0x202),'\x20a\x20choisi(e)\x20*',_0x2669c3(0x205),_0x2669c3(0x1c3),_0x2669c3(0x1f9),_0x2669c3(0x1df),_0x2669c3(0x1ca),_0x2669c3(0x1cd),'\x0a\x0a*resultat\x20:*\x20l\x27un\x20ou\x20les\x20deux\x20choix\x20ne\x20sont\x20pas\x20valides.','split',_0x2669c3(0x1d3),'\x0a\x0a*Answers\x20:*\x0a',_0x2669c3(0x20c),_0x2669c3(0x1da),_0x2669c3(0x20e),_0x2669c3(0x1f3),'error',_0x2669c3(0x1e1),_0x2669c3(0x1ee),_0x2669c3(0x1fb),_0x2669c3(0x1c2),_0x2669c3(0x1f0),_0x2669c3(0x1e7),_0x2669c3(0x204),_0x2669c3(0x1d4),_0x2669c3(0x1ce),_0x2669c3(0x1c4),_0x2669c3(0x1ef),_0x2669c3(0x1de),_0x2669c3(0x206),_0x2669c3(0x1cb),_0x2669c3(0x1e4)];return _0x3438=function(){return _0x2e8b0d;},_0x3438();}(function(_0x3ce823,_0xf98b5c){const _0x161b13=_0x3943,_0x3a8e60=_0x1d34,_0x416154=_0x3ce823();while(!![]){try{const _0x1584dc=parseInt(_0x3a8e60(0x1ea))/0x1+parseInt(_0x3a8e60(0x206))/0x2*(parseInt(_0x3a8e60(0x1e6))/0x3)+-parseInt(_0x3a8e60(0x1d3))/0x4+-parseInt(_0x3a8e60(0x20f))/0x5*(parseInt(_0x3a8e60(0x1d5))/0x6)+parseInt(_0x3a8e60(0x204))/0x7*(-parseInt(_0x3a8e60(0x1f2))/0x8)+-parseInt(_0x3a8e60(0x1d6))/0x9+parseInt(_0x3a8e60(0x1ee))/0xa;if(_0x1584dc===_0xf98b5c)break;else _0x416154['push'](_0x416154[_0x161b13(0x1c5)]());}catch(_0x167a05){_0x416154[_0x161b13(0x1c6)](_0x416154[_0x161b13(0x1c5)]());}}}(_0x3438,0xa1e19));const {zokou}=require(_0x42c380(0x203)),axios=require(_0x5a877f(0x20a)),traduire=require(_0x42c380(0x1eb));zokou({'nomCom':_0x42c380(0x208),'categorie':_0x42c380(0x207),'reaction':'✌️'},async(_0x1c2b39,_0x1c3e77,_0x5df8d7)=>{const _0x47b68f=_0x5a877f,_0x5326d5=_0x42c380,{repondre:_0x229ac6,ms:_0x3a5f73,auteurMessage:_0x50faa0,auteurMsgRepondu:_0x4a6392,msgRepondu:_0x352028,arg:_0x2e1a2a,idBot:_0x2e01dc}=_0x5df8d7;if(_0x352028){_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':'@'+_0x50faa0[_0x47b68f(0x1d1)]('@')[0x0]+_0x5326d5(0x20b)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x47b68f(0x209),'mentions':[_0x50faa0,_0x4a6392]});try{const _0x14482b=await _0x1c3e77[_0x5326d5(0x1e3)]({'sender':_0x4a6392,'chatJid':_0x1c2b39,'timeout':0x7530});console[_0x47b68f(0x1d9)](_0x14482b);if(_0x14482b[_0x47b68f(0x20f)][_0x5326d5(0x216)][_0x5326d5(0x1fe)]()===_0x5326d5(0x1dc)||_0x14482b[_0x5326d5(0x20e)][_0x5326d5(0x1ec)][_0x5326d5(0x1dd)][_0x5326d5(0x1fe)]()==='yes'){let _0x35e168=_0x5326d5(0x20c)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x47b68f(0x20e)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1f1);_0x1c3e77[_0x47b68f(0x1f0)](_0x1c2b39,{'text':_0x35e168,'mentions':[_0x50faa0,_0x4a6392]});let _0x4db8c2=_0x5326d5(0x200),_0x400923=[_0x50faa0,_0x4a6392],_0x148bad=[];try{for(const _0xfc4032 of _0x400923){_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':'@'+_0xfc4032[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x212)+_0x2e01dc[_0x5326d5(0x1f5)]('@')[0x0]+'\x20','mentions':[_0xfc4032]}),_0x1c3e77[_0x5326d5(0x201)](_0xfc4032,{'text':_0x4db8c2});const _0x12fd93=await _0x1c3e77[_0x5326d5(0x1e3)]({'sender':_0xfc4032,'chatJid':_0xfc4032,'timeout':0x7530});console[_0x5326d5(0x215)](_0x5326d5(0x1ef)+'\x20'+_0xfc4032),console[_0x5326d5(0x215)](_0x12fd93),_0x148bad[_0x47b68f(0x1c6)](_0x12fd93[_0x47b68f(0x20f)][_0x5326d5(0x1ec)][_0x5326d5(0x1dd)][_0x5326d5(0x1fe)]());}console[_0x5326d5(0x215)](_0x148bad);const _0x4f6e1b=[_0x47b68f(0x1fb),_0x47b68f(0x1cf),_0x5326d5(0x1e0)],_0x3f354a=_0x148bad[0x0],_0x4522c8=_0x148bad[0x1];if(!_0x4f6e1b[_0x5326d5(0x1e1)](_0x3f354a)||!_0x4f6e1b[_0x5326d5(0x1e1)](_0x4522c8))_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':_0x5326d5(0x1de)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1e4)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1f4),'mentions':[_0x50faa0,_0x4a6392]});else{if(_0x3f354a===_0x4522c8)_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':_0x5326d5(0x1de)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x47b68f(0x1e6)+_0x4522c8+_0x5326d5(0x1db)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1ed)+_0x3f354a+_0x5326d5(0x209),'mentions':[_0x50faa0,_0x4a6392]});else _0x3f354a===_0x5326d5(0x1ff)&&_0x4522c8===_0x47b68f(0x1fa)||_0x3f354a===_0x5326d5(0x1da)&&_0x4522c8===_0x5326d5(0x1ff)||_0x3f354a===_0x5326d5(0x1e0)&&_0x4522c8===_0x5326d5(0x1da)?_0x1c3e77[_0x47b68f(0x1f0)](_0x1c2b39,{'text':_0x5326d5(0x20c)+_0x4a6392['split']('@')[0x0]+_0x47b68f(0x20c)+_0x4522c8+_0x5326d5(0x211)+_0x50faa0[_0x47b68f(0x1d1)]('@')[0x0]+_0x5326d5(0x1f8)+_0x3f354a+'*\x0a\x0a*result\x20:*\x20@'+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x47b68f(0x201),'mentions':[_0x50faa0,_0x4a6392]}):_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':_0x5326d5(0x20c)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1f8)+_0x4522c8+_0x47b68f(0x1fd)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x20d)+_0x3f354a+_0x5326d5(0x214)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x213),'mentions':[_0x50faa0,_0x4a6392]});}}catch(_0x1378d9){_0x1378d9[_0x5326d5(0x20e)]===_0x5326d5(0x1d8)?_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':_0x5326d5(0x20c)+_0x4a6392[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1fa)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x5326d5(0x1e7),'mentions':[_0x50faa0,_0x4a6392]}):console[_0x47b68f(0x1c9)](_0x1378d9);}}else _0x229ac6(_0x5326d5(0x205));}catch(_0x1941c2){_0x1941c2[_0x47b68f(0x20f)]===_0x5326d5(0x1d8)?_0x1c3e77[_0x5326d5(0x201)](_0x1c2b39,{'text':'@'+_0x4a6392[_0x47b68f(0x1d1)]('@')[0x0]+_0x5326d5(0x1e5)+_0x50faa0[_0x5326d5(0x1f5)]('@')[0x0]+_0x47b68f(0x1fe),'mentions':[_0x50faa0,_0x4a6392]}):console[_0x5326d5(0x1fc)](_0x1941c2);}}else _0x229ac6(_0x5326d5(0x1d7));}),zokou({'nomCom':_0x42c380(0x1f9),'categorie':_0x42c380(0x207),'reaction':'📝'},async(_0x4221f2,_0x99f21f,_0x197f9f)=>{const _0x276521=_0x5a877f,_0x21b49d=_0x42c380,{repondre:_0x5c5ac8,auteurMessage:_0x56603d}=_0x197f9f;try{let _0x4a6267=await axios[_0x21b49d(0x1f0)](_0x21b49d(0x1d9)),_0x483d08=_0x21b49d(0x202)+await traduire(_0x4a6267['data'][_0x276521(0x1e5)][0x0][_0x21b49d(0x210)],{'to':'en'})+_0x21b49d(0x1d4)+await traduire(_0x4a6267[_0x21b49d(0x1f3)][_0x21b49d(0x218)][0x0][_0x21b49d(0x1e9)],{'to':'en'})+_0x21b49d(0x1f7),_0x3a7400=[];for(const _0x1542d6 of _0x4a6267[_0x21b49d(0x1f3)][_0x21b49d(0x218)][0x0][_0x276521(0x1dd)]){_0x3a7400[_0x21b49d(0x219)](_0x1542d6);};_0x3a7400[_0x21b49d(0x219)](_0x4a6267[_0x276521(0x1cd)][_0x276521(0x1e5)][0x0][_0x21b49d(0x1f6)]);async function _0x4fdfcd(_0x4dbe0a){const _0x1b3529=_0x276521,_0x4babef=_0x21b49d,_0x2f3f46=_0x4dbe0a[_0x4babef(0x1e2)]();for(let _0xa330dd=_0x2f3f46[_0x1b3529(0x1d2)]-0x1;_0xa330dd>0x0;_0xa330dd--){const _0x470e13=Math[_0x4babef(0x1fb)](Math[_0x4babef(0x1df)]()*(_0xa330dd+0x1));[_0x2f3f46[_0xa330dd],_0x2f3f46[_0x470e13]]=[_0x2f3f46[_0x470e13],_0x2f3f46[_0xa330dd]];}return _0x2f3f46;};let _0x4824c4=await _0x4fdfcd(_0x3a7400);for(let _0x3a1a58=0x0;_0x3a1a58<_0x4824c4['length'];_0x3a1a58++){_0x483d08+='*'+(_0x3a1a58+0x1)+_0x21b49d(0x20a)+_0x4824c4[_0x3a1a58]+'\x0a';}_0x483d08+=_0x21b49d(0x1e8),_0x5c5ac8(_0x483d08);let _0xffbb5c=await _0x99f21f[_0x21b49d(0x1e3)]({'sender':_0x56603d,'chatJid':_0x4221f2,'timeout':0x3a98}),_0x400b60;try{_0x400b60=_0xffbb5c[_0x21b49d(0x20e)][_0x21b49d(0x1ec)][_0x276521(0x1d5)];}catch{_0x400b60=_0xffbb5c[_0x276521(0x20f)][_0x21b49d(0x216)];};_0x4824c4[_0x400b60-0x1]==_0x4a6267[_0x276521(0x1cd)][_0x21b49d(0x218)][0x0][_0x21b49d(0x1f6)]?_0x5c5ac8(_0x21b49d(0x1fd)):_0x5c5ac8(_0x21b49d(0x217));}catch(_0x1400d8){console[_0x21b49d(0x215)](_0x1400d8);}});
+
+
+const { zokou } = require("../framework/zokou")
+//const { getGroupe } = require("../bdd/groupe")
+const { Sticker, StickerTypes } = require('wa-sticker-formatter');
+const {ajouterOuMettreAJourJid,mettreAJourAction,verifierEtatJid} = require("../bdd/antilien")
+const {atbajouterOuMettreAJourJid,atbverifierEtatJid} = require("../bdd/antibot")
+const { search, download } = require("aptoide-scraper");
+const fs = require("fs-extra");
+const conf = require("../set");
+const { default: axios } = require('axios');
+//const { uploadImageToImgur } = require('../framework/imgur');
+
+
+
+
+
+zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, zk, commandeOptions) => {
+
+  const { ms, repondre, arg, verifGroupe, nomGroupe, infosGroupe, nomAuteurMessage, verifAdmin, superUser } = commandeOptions
+
+
+ 
+
+  if (!verifGroupe) { repondre("✋🏿 ✋🏿this command is reserved for groups ❌"); return; }
+  if (!arg || arg === ' ') {
+  mess = 'Aucun Message'
+  } else {
+    mess = arg.join(' ')
+  } ;
+  let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
+  var tag = ""; 
+  tag += `  
+╭─────────────━┈⊷ 
+│🔰 YOBIH BUG BOT TAG
+╰─────────────━┈⊷ \n
+│👥 *Group* : ${nomGroupe} 
+│👤 *Hey😀* : *${nomAuteurMessage}* 
+│📜 *Message* : *${mess}* 
+╰─────────────━┈⊷\n
+\n
+
+` ;
+
+
+
+
+  let emoji = ['🦴', '👀', '😮‍💨', '❌', '✔️', '😇', '⚙️', '🔧', '🎊', '😡', '🙏🏿', '⛔️', '$','😟','🥵','🐅']
+  let random = Math.floor(Math.random() * (emoji.length - 1))
+
+
+  for (const membre of membresGroupe) {
+    tag += `${emoji[random]}      @${membre.id.split("@")[0]}\n`
+  }
+
+ 
+ if (verifAdmin || superUser) {
+
+  zk.sendMessage(dest, { text: tag, mentions: membresGroupe.map((i) => i.id) }, { quoted: ms })
+
+   } else { repondre('command reserved for admins')}
+
+});
+
+
+zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk, commandeOptions) => {
+  const { repondre, nomGroupe, nomAuteurMessage, verifGroupe } = commandeOptions;
+  if (!verifGroupe) { repondre("wait bro , you want the link to my dm?"); return; };
+
+
+  var link = await zk.groupInviteCode(dest)
+  var lien = `https://chat.whatsapp.com/${link}`;
+
+  let mess = `hey🖐️ ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
+
+Group link :${lien} \n\n©𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬 𝐒𝐜𝐢𝐞𝐧𝐜𝐞`
+  repondre(mess)
+
+
+});
+/** *nommer un membre comme admin */
+zokou({ nomCom: "promote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+  let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
+  let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
+  if (!verifGroupe) { return repondre("For groups only"); }
+
+
+  const verifMember = (user) => {
+
+    for (const m of membresGroupe) {
+      if (m.id !== user) {
+        continue;
+      }
+      else { return true }
+      //membre=//(m.id==auteurMsgRepondu? return true) :false;
+    }
+  }
+
+  const memberAdmin = (membresGroupe) => {
+    let admin = [];
+    for (m of membresGroupe) {
+      if (m.admin == null) continue;
+      admin.push(m.id);
+
+    }
+    // else{admin= false;}
+    return admin;
+  }
+
+  const a = verifGroupe ? memberAdmin(membresGroupe) : '';
+
+
+  let admin = verifGroupe ? a.includes(auteurMsgRepondu) : false;
+  let membre = verifMember(auteurMsgRepondu)
+  let autAdmin = verifGroupe ? a.includes(auteurMessage) : false;
+  zkad = verifGroupe ? a.includes(idBot) : false;
+  try {
+    // repondre(verifZokouAdmin)
+
+    if (autAdmin || superUser) {
+      if (msgRepondu) {
+        if (zkad) {
+          if (membre) {
+            if (admin == false) {
+              var txt = `🎊🎊🎊  @${auteurMsgRepondu.split("@")[0]} rose in rank.\n
+                      he/she has been named group administrator.`
+              await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "promote");
+              zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
+            } else { return repondre("This member is already an administrator of the group.") }
+
+          } else { return repondre("This user is not part of the group."); }
+        }
+        else { return repondre("Sorry, I cannot perform this action because I am not an administrator of the group.") }
+
+      } else { repondre("please tag the member to be nominated"); }
+    } else { return repondre("Sorry I cannot perform this action because you are not an administrator of the group.") }
+  } catch (e) { repondre("oups " + e) }
+
+})
+
+//fin nommer
+/** ***demettre */
+
+zokou({ nomCom: "demote", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+  let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, auteurMessage, superUser, idBot } = commandeOptions;
+  let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
+  if (!verifGroupe) { return repondre("For groups only"); }
+
+
+  const verifMember = (user) => {
+
+    for (const m of membresGroupe) {
+      if (m.id !== user) {
+        continue;
+      }
+      else { return true }
+      //membre=//(m.id==auteurMsgRepondu? return true) :false;
+    }
+  }
+
+  const memberAdmin = (membresGroupe) => {
+    let admin = [];
+    for (m of membresGroupe) {
+      if (m.admin == null) continue;
+      admin.push(m.id);
+
+    }
+    // else{admin= false;}
+    return admin;
+  }
+
+  const a = verifGroupe ? memberAdmin(membresGroupe) : '';
+
+
+  let admin = verifGroupe ? a.includes(auteurMsgRepondu) : false;
+  let membre = verifMember(auteurMsgRepondu)
+  let autAdmin = verifGroupe ? a.includes(auteurMessage) : false;
+  zkad = verifGroupe ? a.includes(idBot) : false;
+  try {
+    // repondre(verifZokouAdmin)
+
+    if (autAdmin || superUser) {
+      if (msgRepondu) {
+        if (zkad) {
+          if (membre) {
+            if (admin == false) {
+
+              repondre("This member is not a group administrator.")
+
+            } else {
+              var txt = `@${auteurMsgRepondu.split("@")[0]} was removed from his position as a group administrator\n`
+              await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "demote");
+              zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
+            }
+
+          } else { return repondre("This user is not part of the group."); }
+        }
+        else { return repondre("Sorry I cannot perform this action because I am not an administrator of the group.") }
+
+      } else { repondre("please tag the member to be removed"); }
+    } else { return repondre("Sorry I cannot perform this action because you are not an administrator of the group.") }
+  } catch (e) { repondre("oups " + e) }
+
+})
+
+
+
+/** ***fin démettre****  **/
+/** **retirer** */
+zokou({ nomCom: "remove", categorie: 'Group', reaction: "👨🏿‍💼" }, async (dest, zk, commandeOptions) => {
+  let { repondre, msgRepondu, infosGroupe, auteurMsgRepondu, verifGroupe, nomAuteurMessage, auteurMessage, superUser, idBot } = commandeOptions;
+  let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
+  if (!verifGroupe) { return repondre("for groups only"); }
+
+
+  const verifMember = (user) => {
+
+    for (const m of membresGroupe) {
+      if (m.id !== user) {
+        continue;
+      }
+      else { return true }
+      //membre=//(m.id==auteurMsgRepondu? return true) :false;
+    }
+  }
+
+  const memberAdmin = (membresGroupe) => {
+    let admin = [];
+    for (m of membresGroupe) {
+      if (m.admin == null) continue;
+      admin.push(m.id);
+
+    }
+    // else{admin= false;}
+    return admin;
+  }
+
+  const a = verifGroupe ? memberAdmin(membresGroupe) : '';
+
+
+  let admin = verifGroupe ? a.includes(auteurMsgRepondu) : false;
+  let membre = verifMember(auteurMsgRepondu)
+  let autAdmin = verifGroupe ? a.includes(auteurMessage) : false;
+  zkad = verifGroupe ? a.includes(idBot) : false;
+  try {
+    // repondre(verifZokouAdmin)
+
+    if (autAdmin || superUser) {
+      if (msgRepondu) {
+        if (zkad) {
+          if (membre) {
+            if (admin == false) {
+              const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif"
+              var sticker = new Sticker(gifLink, {
+                pack: 'Zokou-Md', // The pack name
+                author: nomAuteurMessage, // The author name
+                type: StickerTypes.FULL, // The sticker type
+                categories: ['🤩', '🎉'], // The sticker category
+                id: '12345', // The sticker id
+                quality: 50, // The quality of the output file
+                background: '#000000'
+              });
+
+              await sticker.toFile("st.webp")
+              var txt = `@${auteurMsgRepondu.split("@")[0]} was removed from the group.\n`
+            /*  zk.sendMessage(dest, { sticker: fs.readFileSync("st.webp") }, { quoted: ms.message.extendedTextMessage.contextInfo.stanzaId})*/
+              await zk.groupParticipantsUpdate(dest, [auteurMsgRepondu], "remove");
+              zk.sendMessage(dest, { text: txt, mentions: [auteurMsgRepondu] })
+
+            } else { repondre("This member cannot be removed because he is an administrator of the group.") }
+
+          } else { return repondre("This user is not part of the group."); }
+        }
+        else { return repondre("Sorry, I cannot perform this action because I am not an administrator of the group.") }
+
+      } else { repondre("please tag the member to be removed"); }
+    } else { return repondre("Sorry I cannot perform this action because you are not an administrator of the group .") }
+  } catch (e) { repondre("oups " + e) }
+
+})
+
+
+/** *****fin retirer */
+
+
+zokou({ nomCom: "del", categorie: 'Group',reaction:"🧹" }, async (dest, zk, commandeOptions) => {
+
+  const { ms, repondre, verifGroupe,auteurMsgRepondu,idBot, msgRepondu, verifAdmin, superUser} = commandeOptions;
+  
+  if (!msgRepondu) {
+    repondre("Please mention the message to delete.");
+    return;
+  }
+  if(superUser && auteurMsgRepondu==idBot )
+  {
+    
+       if(auteurMsgRepondu==idBot)
+       {
+         const key={
+            remoteJid:dest,
+      fromMe: true,
+      id: ms.message.extendedTextMessage.contextInfo.stanzaId,
+         }
+         await zk.sendMessage(dest,{delete:key});return;
+       } 
+  }
+
+          if(verifGroupe)
+          {
+               if(verifAdmin || superUser)
+               {
+                    
+                         try{
+                
+      
+            const key=   {
+               remoteJid : dest,
+               id : ms.message.extendedTextMessage.contextInfo.stanzaId ,
+               fromMe : false,
+               participant : ms.message.extendedTextMessage.contextInfo.participant
+
+            }        
+         
+         await zk.sendMessage(dest,{delete:key});return;
+
+             }catch(e){repondre( "I need admin rights.")}
+                    
+                      
+               }else{repondre("Sorry, you are not an administrator of the group.")}
+          }
+
+});
+
+zokou({ nomCom: "info", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+  const { ms, repondre, verifGroupe } = commandeOptions;
+  if (!verifGroupe) { repondre("order reserved for the group only"); return };
+
+ try { ppgroup = await zk.profilePictureUrl(dest ,'image') ; } catch { ppgroup = conf.IMAGE_MENU}
+
+    const info = await zk.groupMetadata(dest)
+
+    /*console.log(metadata.id + ", title: " + metadata.subject + ", description: " + metadata.desc)*/
+
+
+    let mess = {
+      image: { url: ppgroup },
+      caption:  `*━━━━『Group Info』━━━━*\n\n*🎐Name:* ${info.subject}\n\n*🔩Group's ID:* ${dest}\n\n*🔍Desc:* \n\n${info.desc}`
+    }
+
+
+    zk.sendMessage(dest, mess, { quoted: ms })
+  });
+
+
+
+ //------------------------------------antilien-------------------------------
+
+ zokou({ nomCom: "antilink", categorie: 'Group', reaction: "🔗" }, async (dest, zk, commandeOptions) => {
+
+
+  var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
+  
+
+  
+  if (!verifGroupe) {
+    return repondre("*for groups only*");
+  }
+  
+  if( superUser || verifAdmin) {
+    const enetatoui = await verifierEtatJid(dest)
+    try {
+      if (!arg || !arg[0] || arg === ' ') { repondre("antilink on to activate the anti-link feature\nantilink off to deactivate the anti-link feature\nantilink action/remove to directly remove the link without notice\nantilink action/warn to give warnings\nantilink action/delete to remove the link without any sanctions\n\nPlease note that by default, the anti-link feature is set to delete.") ; return};
+     
+      if(arg[0] === 'on') {
+
+      
+       if(enetatoui ) { repondre("the antilink is already activated for this group")
+                    } else {
+                  await ajouterOuMettreAJourJid(dest,"oui");
+                
+              repondre("the antilink is activated successfully") }
+     
+            } else if (arg[0] === "off") {
+
+              if (enetatoui) { 
+                await ajouterOuMettreAJourJid(dest , "non");
+
+                repondre("The antilink has been successfully deactivated");
+                
+              } else {
+                repondre("antilink is not activated for this group");
+              }
+            } else if (arg.join('').split("/")[0] === 'action') {
+                            
+
+              let action = (arg.join('').split("/")[1]).toLowerCase() ;
+
+              if ( action == 'remove' || action == 'warn' || action == 'delete' ) {
+
+                await mettreAJourAction(dest,action);
+
+                repondre(`The anti-link action has been updated to ${arg.join('').split("/")[1]}`);
+
+              } else {
+                  repondre("The only actions available are warn, remove, and delete") ;
+              }
+            
+
+            } else repondre("antilink on to activate the anti-link feature\nantilink off to deactivate the anti-link feature\nantilink action/remove to directly remove the link without notice\nantilink action/warn to give warnings\nantilink action/delete to remove the link without any sanctions\n\nPlease note that by default, the anti-link feature is set to delete.")
+
+      
+    } catch (error) {
+       repondre(error)
+    }
+
+  } else { repondre('You are not entitled to this order') ;
+  }
+
+});
+
+
+
+
+ //------------------------------------antibot-------------------------------
+
+ zokou({ nomCom: "antibot", categorie: 'Group', reaction: "😬" }, async (dest, zk, commandeOptions) => {
+
+
+  var { repondre, arg, verifGroupe, superUser, verifAdmin } = commandeOptions;
+  
+
+  
+  if (!verifGroupe) {
+    return repondre("*for groups only*");
+  }
+  
+  if( superUser || verifAdmin) {
+    const enetatoui = await atbverifierEtatJid(dest)
+    try {
+      if (!arg || !arg[0] || arg === ' ') { repondre('antibot on to activate the anti-bot feature\nantibot off to deactivate the antibot feature\nantibot action/remove to directly remove the bot without notice\nantibot action/warn to give warnings\nantilink action/delete to remove the bot message without any sanctions\n\nPlease note that by default, the anti-bot feature is set to delete.') ; return};
+     
+      if(arg[0] === 'on') {
+
+      
+       if(enetatoui ) { repondre("the antibot is already activated for this group")
+                    } else {
+                  await atbajouterOuMettreAJourJid(dest,"oui");
+                
+              repondre("the antibot is successfully activated") }
+     
+            } else if (arg[0] === "off") {
+
+              if (enetatoui) { 
+                await atbajouterOuMettreAJourJid(dest , "non");
+
+                repondre("The antibot has been successfully deactivated");
+                
+              } else {
+                repondre("antibot is not activated for this group");
+              }
+            } else if (arg.join('').split("/")[0] === 'action') {
+
+              let action = (arg.join('').split("/")[1]).toLowerCase() ;
+
+              if ( action == 'remove' || action == 'warn' || action == 'delete' ) {
+
+                await mettreAJourAction(dest,action);
+
+                repondre(`The anti-bot action has been updated to ${arg.join('').split("/")[1]}`);
+
+              } else {
+                  repondre("The only actions available are warn, remove, and delete") ;
+              }
+            
+
+            } else {  
+              repondre('antibot on to activate the anti-bot feature\nantibot off to deactivate the antibot feature\nantibot action/remove to directly remove the bot without notice\nantibot action/warn to give warnings\nantilink action/delete to remove the bot message without any sanctions\n\nPlease note that by default, the anti-bot feature is set to delete.') ;
+
+                            }
+    } catch (error) {
+       repondre(error)
+    }
+
+  } else { repondre('You are not entitled to this order') ;
+
+  }
+
+});
+
+//----------------------------------------------------------------------------
+
+zokou({ nomCom: "group", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+
+  const { repondre, verifGroupe, verifAdmin, superUser, arg } = commandeOptions;
+
+  if (!verifGroupe) { repondre("order reserved for group only"); return };
+  if (superUser || verifAdmin) {
+
+    if (!arg[0]) { repondre('Instructions:\n\nType group open or close'); return; }
+    const option = arg.join(' ')
+    switch (option) {
+      case "open":
+        await zk.groupSettingUpdate(dest, 'not_announcement')
+        repondre('group open')
+        break;
+      case "close":
+        await zk.groupSettingUpdate(dest, 'announcement');
+        repondre('Group close successfully');
+        break;
+      default: repondre("Please don't invent an option")
+    }
+
+    
+  } else {
+    repondre("order reserved for the administratorr");
+    return;
+  }
+ 
+
+});
+
+zokou({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
+
+  const { repondre, verifGroupe, superUser } = commandeOptions;
+  if (!verifGroupe) { repondre("order reserved for group only"); return };
+  if (!superUser) {
+    repondre("command reserved for the bot owner");
+    return;
+  }
+  await repondre('sayonnara') ;
+   
+  zk.groupLeave(dest)
+});
+
+zokou({ nomCom: "gname", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+
+  const { arg, repondre, verifAdmin } = commandeOptions;
+
+  if (!verifAdmin) {
+    repondre("order reserved for administrators of the group");
+    return;
+  };
+  if (!arg[0]) {
+    repondre("Please enter the group name");
+    return;
+  };
+   const nom = arg.join(' ')
+  await zk.groupUpdateSubject(dest, nom);
+    repondre(`group name refresh: *${nom}*`)
+
+ 
+}) ;
+
+zokou({ nomCom: "gdesc", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+
+  const { arg, repondre, verifAdmin } = commandeOptions;
+
+  if (!verifAdmin) {
+    repondre("order reserved for administrators of the group");
+    return;
+  };
+  if (!arg[0]) {
+    repondre("Please enter the group description");
+    return;
+  };
+   const nom = arg.join(' ')
+  await zk.groupUpdateDescription(dest, nom);
+    repondre(`group description update: *${nom}*`)
+
+ 
+}) ;
+
+
+zokou({ nomCom: "gpp", categorie: 'Group' }, async (dest, zk, commandeOptions) => {
+
+  const { repondre, msgRepondu, verifAdmin } = commandeOptions;
+
+  if (!verifAdmin) {
+    repondre("order reserved for administrators of the group");
+    return;
+  }; 
+  if (msgRepondu.imageMessage) {
+    const pp = await  zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage) ;
+
+    await zk.updateProfilePicture(dest, { url: pp })
+                .then( () => {
+                    zk.sendMessage(dest,{text:"Group pfp changed"})
+                    fs.unlinkSync(pp)
+                }).catch(() =>   zk.sendMessage(dest,{text:err})
+)
+        
+  } else {
+    repondre('Please mention an image')
+  }
+
+});
+
+/////////////
+zokou({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,commandeOptions)=>{
+
+  const {repondre,msgRepondu,verifGroupe,arg ,verifAdmin , superUser}=commandeOptions;
+
+  if(!verifGroupe)  { repondre('This command is only allowed in groups.')} ;
+  if (verifAdmin || superUser) { 
+
+  let metadata = await zk.groupMetadata(dest) ;
+
+  //console.log(metadata.participants)
+ let tag = [] ;
+  for (const participant of metadata.participants ) {
+
+      tag.push(participant.id) ;
+  }
+  //console.log(tag)
+
+    if(msgRepondu) {
+      console.log(msgRepondu)
+      let msg ;
+
+      if (msgRepondu.imageMessage) {
+
+        
+
+     let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.imageMessage) ;
+     // console.log(msgRepondu) ;
+     msg = {
+
+       image : { url : media } ,
+       caption : msgRepondu.imageMessage.caption,
+       mentions :  tag
+       
+     }
+    
+
+      } else if (msgRepondu.videoMessage) {
+
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.videoMessage) ;
+
+        msg = {
+
+          video : { url : media } ,
+          caption : msgRepondu.videoMessage.caption,
+          mentions :  tag
+          
+        }
+
+      } else if (msgRepondu.audioMessage) {
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.audioMessage) ;
+       
+        msg = {
+   
+          audio : { url : media } ,
+          mimetype:'audio/mp4',
+          mentions :  tag
+           }     
+        
+      } else if (msgRepondu.stickerMessage) {
+
+    
+        let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
+
+        let stickerMess = new Sticker(media, {
+          pack: 'Bmw-mdtag',
+          type: StickerTypes.CROPPED,
+          categories: ["🤩", "🎉"],
+          id: "12345",
+          quality: 70,
+          background: "transparent",
+        });
+        const stickerBuffer2 = await stickerMess.toBuffer();
+       
+        msg = { sticker: stickerBuffer2 , mentions : tag}
+
+
+      }  else {
+          msg = {
+             text : msgRepondu.conversation,
+             mentions : tag
+          }
+      }
+
+    zk.sendMessage(dest,msg)
+
+    } else {
+
+        if(!arg || !arg[0]) { repondre('Enter the text to announce or mention the message to announce');
+        ; return} ;
+
+      zk.sendMessage(
+         dest,
+         {
+          text : arg.join(' ') ,
+          mentions : tag
+         }     
+      )
+    }
+
+} else {
+  repondre('Command reserved for administrators.')
+}
+
+});
+
+
+zokou({ nomCom: "apk", reaction: "✨", categorie: "Recherche" }, async (dest, zk, commandeOptions) => {
+  const { repondre, arg, ms } = commandeOptions;
+
+  try {
+    const appName = arg.join(' ');
+    if (!appName) {
+      return repondre("*Enter the name of the application to search for*");
+    }
+
+    const searchResults = await search(appName);
+
+    if (searchResults.length === 0) {
+      return repondre("*can't find application, please enter another name*");
+    }
+
+    const appData = await download(searchResults[0].id);
+    const fileSize = parseInt(appData.size);
+
+    if (fileSize > 300) {
+      return repondre("The file exceeds 300 MB, unable to download.");
+    }
+
+    const downloadLink = appData.dllink;
+    const captionText =
+      "『 *Bmw-Md Application* 』\n\n*Name :* " + appData.name +
+      "\n*Id :* " + appData["package"] +
+      "\n*Last Update :* " + appData.lastup +
+      "\n*Size :* " + appData.size +
+      "\n";
+
+    const apkFileName = (appData?.["name"] || "Downloader") + ".apk";
+    const filePath = apkFileName;
+
+    const response = await axios.get(downloadLink, { 'responseType': "stream" });
+    const fileWriter = fs.createWriteStream(filePath);
+    response.data.pipe(fileWriter);
+
+    await new Promise((resolve, reject) => {
+      fileWriter.on('finish', resolve);
+      fileWriter.on("error", reject);
+    });
+
+    const documentMessage = {
+      'document': fs.readFileSync(filePath),
+      'mimetype': 'application/vnd.android.package-archive',
+      'fileName': apkFileName
+    };
+
+    // Utilisation d'une seule méthode sendMessage pour envoyer l'image et le document
+    zk.sendMessage(dest, { image: { url: appData.icon }, caption: captionText }, { quoted: ms });
+    zk.sendMessage(dest, documentMessage, { quoted: ms });
+
+    // Supprimer le fichier après envoi
+    fs.unlinkSync(filePath);
+  } catch (error) {
+    console.error('Erreur lors du traitement de la commande apk:', error);
+    repondre("*Error during apk command processing*");
+  }
+});
+
+
+
+
+
+/*******************************  automute && autoummute ***************************/
+
+const cron = require(`../bdd/cron`) ;
+
+
+zokou({
+      nomCom : 'automute',
+      categorie : 'Group'
+  } , async (dest,zk,commandeOptions) => {
+
+      const {arg , repondre , verifAdmin } = commandeOptions ;
+
+      if (!verifAdmin) { repondre('You are not an administrator of the group') ; return}
+
+      group_cron = await cron.getCronById(dest) ;
+      
+     
+
+      if (!arg || arg.length == 0) {
+
+        let state ;
+        if (group_cron == null || group_cron.mute_at == null) {
+  
+            state =  "No time set for automatic mute"
+        } else {
+  
+          state =  `The group will be muted at ${(group_cron.mute_at).split(':')[0]} ${(group_cron.mute_at).split(':')[1]}`
+        }
+  
+        let msg = `* *State:* ${state}
+        * *Instructions:* To activate automatic mute, add the minute and hour after the command separated by ':'
+        Example automute 9:30
+        * To delete the automatic mute, use the command *automute del*`
+        
+
+          repondre(msg) ;
+          return ;
+      } else {
+
+        let texte = arg.join(' ')
+
+        if (texte.toLowerCase() === `del` ) { 
+
+          if (group_cron == null) {
+
+              repondre('No cronometrage is active') ;
+          } else {
+
+              await cron.delCron(dest) ;
+
+              repondre("The automatic mute has been removed; restart to apply changes") 
+              .then(() => {
+
+                exec("pm2 restart all");
+              }) ;
+          }
+        } else if (texte.includes(':')) {
+
+          //let { hr , min } = texte.split(':') ;
+
+          await cron.addCron(dest,"mute_at",texte) ;
+
+          repondre(`Setting up automatic mute for ${texte} ; restart to apply changes`) 
+          .then(() => {
+
+            exec("pm2 restart all");
+          }) ;
+
+        } else {
+            repondre('Please enter a valid time with hour and minute separated by :') ;
+        }
+
+
+      }
+  });
+
+
+  zokou({
+    nomCom : 'autounmute',
+    categorie : 'Group'
+} , async (dest,zk,commandeOptions) => {
+
+    const {arg , repondre , verifAdmin } = commandeOptions ;
+
+    if (!verifAdmin) { repondre('You are not an administrator of the group') ; return}
+
+    group_cron = await cron.getCronById(dest) ;
+    
+   
+
+    if (!arg || arg.length == 0) {
+
+      let state ;
+      if (group_cron == null || group_cron.unmute_at == null) {
+
+          state = "No time set for autounmute" ;
+
+      } else {
+
+        state = `The group will be un-muted at ${(group_cron.unmute_at).split(':')[0]}H ${(group_cron.unmute_at).split(':')[1]}`
+      }
+
+      let msg = `* *State:* ${state}
+      * *Instructions:* To activate autounmute, add the minute and hour after the command separated by ':'
+      Example autounmute 7:30
+      * To delete autounmute, use the command *autounmute del*`
+
+        repondre(msg) ;
+        return ;
+
+    } else {
+
+      let texte = arg.join(' ')
+
+      if (texte.toLowerCase() === `del` ) { 
+
+        if (group_cron == null) {
+
+            repondre('No cronometrage has been activated') ;
+        } else {
+
+            await cron.delCron(dest) ;
+
+            repondre("The autounmute has been removed; restart to apply the changes")
+            .then(() => {
+
+              exec("pm2 restart all");
+            }) ;
+
+            
+
+        }
+      } else if (texte.includes(':')) {
+
+       
+
+        await cron.addCron(dest,"unmute_at",texte) ;
+
+        repondre(`Setting up autounmute for ${texte}; restart to apply the changes`)
+        .then(() => {
+
+          exec("pm2 restart all");
+        }) ;
+
+      } else {
+          repondre('Please enter a valid time with hour and minute separated by :') ;
+      }
+
+
+    }
+});
+
+
+
+zokou({
+  nomCom : 'fkick',
+  categorie : 'Group'
+} , async (dest,zk,commandeOptions) => {
+
+  const {arg , repondre , verifAdmin , superUser , verifZokouAdmin } = commandeOptions ;
+
+  if (verifAdmin || superUser) {
+
+    if(!verifZokouAdmin){ repondre('You need administrative rights to perform this command') ; return ;}
+
+    if (!arg || arg.length == 0) { repondre('Please enter the country code whose members will be removed') ; return ;}
+
+      let metadata = await zk.groupMetadata(dest) ;
+
+      let participants = metadata.participants ;
+
+      for (let i = 0 ; i < participants.length ; i++) {
+
+          if (participants[i].id.startsWith(arg[0]) && participants[i].admin === null ) {
+
+             await zk.groupParticipantsUpdate(dest, [participants[i].id], "remove") ;
+          }
+      }
+
+  } else {
+    repondre('Sorry, you are not an administrator of the group')
+  }
+
+
+}) ;
+
+
+zokou({
+      nomCom : 'nsfw',
+      categorie : 'Group'
+}, async (dest,zk,commandeOptions) => {
+  
+    const {arg , repondre , verifAdmin } = commandeOptions ;
+
+  if(!verifAdmin) { repondre('Sorry, you cannot enable NSFW content without being an administrator of the group') ; return}
+
+      let hbd = require('../bdd/hentai') ;
+
+    let isHentaiGroupe = await hbd.checkFromHentaiList(dest) ;
+
+  if (arg[0] == 'on') {
+    
+       if(isHentaiGroupe) {repondre('NSFW content is already active for this group') ; return} ;
+
+      await hbd.addToHentaiList(dest) ;
+
+      repondre('NSFW content is now active for this group') ;
+       
+  } else if (arg[0] == 'off') {
+
+     if(!isHentaiGroupe) {repondre('NSFW content is already disabled for this group') ; return} ;
+
+      await hbd.removeFromHentaiList(dest) ;
+
+      repondre('NSFW content is now disabled for this group') ;
+  } else {
+
+      repondre('You must enter "on" or "off"') ;
+    }
+} ) ;
