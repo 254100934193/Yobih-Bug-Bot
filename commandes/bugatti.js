@@ -1,1 +1,113 @@
-function _0x4b69(){const _0x13a9f6=['json','Client','sendMessage','join','list','676158VwHjjB','562132AsgwDV','24732rkjxuI','quote','songs','\x0a\x0a\x0a\x0a\x0a*©Ibrahim\x20Adams*\x0a\x0a╔═════◇\x0a║◇\x20*YOBIH\x20MD*\x0a╚════════════════════>\x20\x20','295gShKOf','228242THRCwQ','replace','split','No\x20result\x20for\x20','lyrics','example','\x0aYOBIH\x20BUG\x20BOT\x20QUOTE\x20MESSAGE\x20\x0a◇\x20_','length','350161TJqeRl','4604448WkCzFD','genius-lyrics','\x0a\x20Definition:\x20','../framework/zokou','_\x0a\x0a\x0a◇\x20*AUTHOR:*\x20','poll','User','Search','jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO','\x0a\x20Example:\x20','\x20*YOBIH\x20BUG\x20BOT\x20FACT\x20MESSAGE*\x20\x0a*💠*\x20','author','General','282928lYEcRE','push','http://api.urbandictionary.com/v0/define?term=','.\x20Try\x20searching\x20a\x20different\x20song.','log','https://favqs.com/api/qotd','definition','axios'];_0x4b69=function(){return _0x13a9f6;};return _0x4b69();}const _0x5bd3f7=_0x3c88;(function(_0x5dccd4,_0x5a3132){const _0x5c3e14=_0x3c88,_0x50533a=_0x5dccd4();while(!![]){try{const _0x56c358=parseInt(_0x5c3e14(0x172))/0x1+-parseInt(_0x5c3e14(0x156))/0x2+parseInt(_0x5c3e14(0x163))/0x3+parseInt(_0x5c3e14(0x164))/0x4+parseInt(_0x5c3e14(0x169))/0x5*(parseInt(_0x5c3e14(0x165))/0x6)+-parseInt(_0x5c3e14(0x16a))/0x7+-parseInt(_0x5c3e14(0x173))/0x8;if(_0x56c358===_0x5a3132)break;else _0x50533a['push'](_0x50533a['shift']());}catch(_0x489332){_0x50533a['push'](_0x50533a['shift']());}}}(_0x4b69,0x332f4));function _0x3c88(_0x4c5e9a,_0x356f93){const _0x4b6988=_0x4b69();return _0x3c88=function(_0x3c8831,_0x5c6cda){_0x3c8831=_0x3c8831-0x153;let _0xa3ac51=_0x4b6988[_0x3c8831];return _0xa3ac51;},_0x3c88(_0x4c5e9a,_0x356f93);}const {zokou}=require(_0x5bd3f7(0x176)),axios=require(_0x5bd3f7(0x15d)),Genius=require(_0x5bd3f7(0x174)),Client=new Genius[(_0x5bd3f7(0x15f))](_0x5bd3f7(0x17b));zokou({'nomCom':_0x5bd3f7(0x178),'reaction':'💠','categorie':_0x5bd3f7(0x155)},async(_0x303d52,_0x36d4c6,_0x4fbc34)=>{const _0x5df341=_0x5bd3f7,{repondre:_0xf8be8b,arg:_0x22eb68,ms:_0x42241f}=_0x4fbc34,_0x52944d=_0x22eb68['join']('\x20');let [_0x5f3d3b,_0x241c79]=_0x52944d[_0x5df341(0x16c)]('/');if(_0x52944d[_0x5df341(0x16c)]('/')<0x2)return _0xf8be8b('Incorrect\x20format.\x0aExample:\x20poll\x20what\x20is\x201+1/2,\x203,\x204');let _0x83765b=[];for(let _0x2d2f6c of _0x241c79[_0x5df341(0x16c)](',')){_0x83765b[_0x5df341(0x157)](_0x2d2f6c);}await _0x36d4c6[_0x5df341(0x160)](_0x303d52,{'poll':{'name':_0x5f3d3b,'values':_0x83765b}});}),zokou({'nomCom':'fact','reaction':'👌','categorie':'User'},async(_0x92e26d,_0x46a0f2,_0x45cee6)=>{const _0x6ba3b3=_0x5bd3f7,{repondre:_0x953377,arg:_0x4f5623,ms:_0x5c5862}=_0x45cee6,_0x5ec764=await fetch('https://nekos.life/api/v2/fact'),_0x147424=await _0x5ec764['json']();_0x953377(_0x6ba3b3(0x153)+_0x147424['fact']+_0x6ba3b3(0x168));}),zokou({'nomCom':'quote','reaction':'📓','categorie':_0x5bd3f7(0x179)},async(_0xaafa02,_0x4a4b35,_0x389e69)=>{const _0x377873=_0x5bd3f7,{repondre:_0x479a9e,arg:_0xf630c1,ms:_0x32bea0}=_0x389e69,_0x181ef1=await fetch(_0x377873(0x15b)),_0x48a64d=await _0x181ef1[_0x377873(0x15e)](),_0x35fe6e=_0x377873(0x170)+_0x48a64d['quote']['body']+_0x377873(0x177)+_0x48a64d[_0x377873(0x166)][_0x377873(0x154)]+'\x0a\x0a\x0a\x0a\x0a◇\x20*©Ibrahim\x20Adams**\x0a\x0a\x0a╔═════◇\x0a║◇\x20*BMW\x20MD*\x0a╚════════════════════>\x20';_0x479a9e(_0x35fe6e);}),zokou({'nomCom':'define','reaction':'😁','categorie':'Search'},async(_0x21ab1c,_0x11d209,_0x1c5df2)=>{const _0x45c11f=_0x5bd3f7,{repondre:_0x290caa,arg:_0x4db7f7,ms:_0x2f21cd}=_0x1c5df2;if(!_0x4db7f7||_0x4db7f7[_0x45c11f(0x171)]===0x0)return _0x290caa('provide\x20a\x20term');const _0x50de16=_0x4db7f7[_0x45c11f(0x161)]('\x20');try{let {data:_0x505b6c}=await axios['get'](_0x45c11f(0x158)+_0x50de16);var _0x5728a7='\x0a\x20Word:\x20'+_0x50de16+_0x45c11f(0x175)+_0x505b6c[_0x45c11f(0x162)][0x0][_0x45c11f(0x15c)]['replace'](/\[/g,'')['replace'](/\]/g,'')+_0x45c11f(0x17c)+_0x505b6c[_0x45c11f(0x162)][0x0][_0x45c11f(0x16f)][_0x45c11f(0x16b)](/\[/g,'')['replace'](/\]/g,'');return _0x290caa(_0x5728a7);}catch{return _0x290caa(_0x45c11f(0x16d)+_0x50de16);}}),zokou({'nomCom':_0x5bd3f7(0x16e),'reaction':'🧾','categorie':_0x5bd3f7(0x17a)},async(_0x4fd4e2,_0x29e852,_0x5dd38c)=>{const _0x115726=_0x5bd3f7,{repondre:_0x29aaf4,arg:_0x2dfc70,ms:_0x64a7d9}=_0x5dd38c;try{if(!_0x2dfc70||_0x2dfc70[_0x115726(0x171)]===0x0)return _0x29aaf4('please\x20provide\x20me\x20the\x20song\x20name');const _0xd7be77=_0x2dfc70[_0x115726(0x161)]('\x20'),_0x5cbd60=await Client[_0x115726(0x167)]['search'](_0xd7be77),_0x3368a7=_0x5cbd60[0x0],_0x1bf844=await _0x3368a7['lyrics']();await _0x29e852[_0x115726(0x160)](_0x4fd4e2,{'text':_0x1bf844},{'quoted':_0x64a7d9});}catch(_0x5e7fe7){reply('I\x20did\x20not\x20find\x20any\x20lyrics\x20for\x20'+text+_0x115726(0x159)),console[_0x115726(0x15a)](_0x5e7fe7);}});
+const {
+  zokou
+} = require("../framework/zokou");
+const axios = require("axios");
+const Genius = require("genius-lyrics");
+const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
+zokou({
+  'nomCom': 'poll',
+  'reaction': '💠',
+  'categorie': "General"
+}, async (_0x30c4fc, _0x12f9f4, _0x257571) => {
+  const {
+    repondre: _0x394782,
+    arg: _0x3aacc5,
+    ms: _0x50fea5
+  } = _0x257571;
+  const _0x24dbc4 = _0x3aacc5.join(" ");
+  let [_0x48d7c3, _0x3c6856] = _0x24dbc4.split('/');
+  if (_0x24dbc4.split('/') < 0x2) {
+    return _0x394782("Incorrect format.\nExample: poll what is 1+1/2, 3, 4");
+  }
+  let _0x28e247 = [];
+  for (let _0x44e06d of _0x3c6856.split(',')) {
+    _0x28e247.push(_0x44e06d);
+  }
+  await _0x12f9f4.sendMessage(_0x30c4fc, {
+    'poll': {
+      'name': _0x48d7c3,
+      'values': _0x28e247
+    }
+  });
+});
+zokou({
+  'nomCom': 'fact',
+  'reaction': '👌',
+  'categorie': 'User'
+}, async (_0x3c85fa, _0xe0dd81, _0x20339c) => {
+  const {
+    repondre: _0x12e23a,
+    arg: _0xec0687,
+    ms: _0x5d5368
+  } = _0x20339c;
+  const _0x5754a8 = await fetch("https://nekos.life/api/v2/fact");
+  const _0x21e127 = await _0x5754a8.json();
+  _0x12e23a(" *YOBIH BUG BOT FACT MESSAGE* \n*💠* " + _0x21e127.fact + "\n\n\n\n\n*©Mungai Brian*\n\n╔═════◇\n║◇ *YOBIH MD*\n╚════════════════════>  ");
+});
+zokou({
+  'nomCom': "quote",
+  'reaction': '📓',
+  'categorie': 'User'
+}, async (_0x139e97, _0xb6d444, _0x53dc51) => {
+  const {
+    repondre: _0x3bef2d,
+    arg: _0x135e01,
+    ms: _0x4a891b
+  } = _0x53dc51;
+  const _0x2784cf = await fetch('https://favqs.com/api/qotd');
+  const _0x1f25fb = await _0x2784cf.json();
+  const _0x2b238b = "\nYOBIH BUG BOT QUOTE MESSAGE \n◇ _" + _0x1f25fb.quote.body + "_\n\n\n◇ *AUTHOR:* " + _0x1f25fb.quote.author + "\n\n\n\n\n◇ *©Mungai Yobih**\n\n\n╔═════◇\n║◇ *YOBIH MD*\n╚════════════════════> ";
+  _0x3bef2d(_0x2b238b);
+});
+zokou({
+  'nomCom': 'define',
+  'reaction': '😁',
+  'categorie': "Search"
+}, async (_0x2d6773, _0x1778cf, _0x5bcf7e) => {
+  const {
+    repondre: _0x3c6e3b,
+    arg: _0x3997ea,
+    ms: _0x10a9bb
+  } = _0x5bcf7e;
+  if (!_0x3997ea || _0x3997ea.length === 0x0) {
+    return _0x3c6e3b("provide a term");
+  }
+  const _0x243eb3 = _0x3997ea.join(" ");
+  try {
+    let {
+      data: _0x31830d
+    } = await axios.get("http://api.urbandictionary.com/v0/define?term=" + _0x243eb3);
+    var _0x259634 = "\n Word: " + _0x243eb3 + "\n Definition: " + _0x31830d.list[0x0].definition.replace(/\[/g, '').replace(/\]/g, '') + "\n Example: " + _0x31830d.list[0x0].example.replace(/\[/g, '').replace(/\]/g, '');
+    return _0x3c6e3b(_0x259634);
+  } catch {
+    return _0x3c6e3b("No result for " + _0x243eb3);
+  }
+});
+zokou({
+  'nomCom': "lyrics",
+  'reaction': '🧾',
+  'categorie': "Search"
+}, async (_0x16b585, _0x24921b, _0x5047e1) => {
+  const {
+    repondre: _0x323d88,
+    arg: _0x47ee56,
+    ms: _0x26dbd3
+  } = _0x5047e1;
+  try {
+    if (!_0x47ee56 || _0x47ee56.length === 0x0) {
+      return _0x323d88("please provide me the song name");
+    }
+    const _0x2d6993 = _0x47ee56.join(" ");
+    const _0x19a972 = await Client.songs.search(_0x2d6993);
+    const _0x349a1c = _0x19a972[0x0];
+    const _0x3e8204 = await _0x349a1c.lyrics();
+    await _0x24921b.sendMessage(_0x16b585, {
+      'text': _0x3e8204
+    }, {
+      'quoted': _0x26dbd3
+    });
+  } catch (_0xe736b5) {
+    reply("I did not find any lyrics for " + text + ". Try searching a different song.");
+    console.log(_0xe736b5);
+  }
+});
