@@ -2,6 +2,16 @@ const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
+const { quran } = require('@quranjs/api');
+
+// Fetch verses from Surah Al-Fatiha (Surah 1)
+quran.v4.verses.findByChapter(1).then(verses => {
+    verses.forEach(verse => {
+        console.log(`Verse ${verse.verse_number}: ${verse.text_uthmani}`);
+    });
+}).catch(error => {
+    console.error('Error fetching verses:', error);
+});
 
 zokou({
   'nomCom': "Quran",
