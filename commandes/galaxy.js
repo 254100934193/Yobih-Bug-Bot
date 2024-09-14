@@ -6,7 +6,7 @@ zokou({ nomCom: "galaxy", reaction: "🌌", nomFichier: __filename }, async (des
     let z = '𝗛𝗘𝗟𝗟𝗢 👋  \n\n ' + "AM YOBIH BUG BOT BY MUNGAI AND I'M STILL EXPLORING THE GALAXY OF MUNGAI  ";
     let d = '      The galaxy is so favourable, wish you could be here';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/51b372ed62c6d83eef249.jpg';
+    var img = 'https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
