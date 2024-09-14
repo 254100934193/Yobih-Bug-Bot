@@ -17,7 +17,7 @@ const runtime = function (seconds) {
  } 
 
 
-zokou({ nomCom: 'vcf5',
+zokou({ nomCom: 'vcf',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '📄', 
@@ -69,7 +69,7 @@ zokou({ nomCom: 'channel',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f`) 
+                 await repondre(`https://whatsapp.com/channel/0029Vajp1HY4o7qSc0kE9o1g`) 
 
    
 
@@ -78,7 +78,7 @@ zokou({ nomCom: 'channel',
 );
 
 
-zokou({ nomCom: 'luckytgc',
+zokou({ nomCom: 'dmyobih',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '🤭', 
@@ -89,7 +89,7 @@ zokou({ nomCom: 'luckytgc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap Here To Join LUCKY MD Telegram Chatroom* https://t.me/+u3zlb5y6OfxhOTdk`) 
+                 await repondre(`*Tap Here To INTERACT WITH YOBIH BOT MD * https://wa.me/254743436105`) 
 
    
 
@@ -109,7 +109,7 @@ zokou({ nomCom: 'update',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_lucky md is running on its latest vision_*`) 
+                 await repondre(`*_Yobih bug bot is running on its latest vision_*`) 
 
    
 
@@ -129,7 +129,7 @@ zokou({ nomCom: 'vision',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_lucky md v7_*`) 
+                 await repondre(`*_Yobih bug bot v2_*`) 
 
    
 
@@ -139,7 +139,7 @@ zokou({ nomCom: 'vision',
 
 
   
-zokou({ nomCom: 'luckywagc',
+zokou({ nomCom: 'group',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '♻️', 
@@ -150,7 +150,7 @@ zokou({ nomCom: 'luckywagc',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*Tap To Join Lucky Md WhatsApp Chartroom Group* https://chat.whatsapp.com/HdrwMccSFIaB5Zi7s9BzN9`) 
+                 await repondre(`*Tap To Join my WhatsApp Chartroom Group* https://chat.whatsapp.com/JTg6H1U5LDyACkrJKz7fgj`) 
 
    
 
@@ -159,7 +159,7 @@ zokou({ nomCom: 'luckywagc',
 )
 
 
-zokou({ nomCom: 'hack2',
+zokou({ nomCom: 'hack',
     desc: 'To check runtime',
     Categorie: 'My Contact',
     reaction: '🐅', 
