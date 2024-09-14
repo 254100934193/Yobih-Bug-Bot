@@ -13,7 +13,7 @@ zokou({
   if (!searchQuery) {
     return respond("Please specify the book, the chapter and the verse you want to read. Example: Quran Romans 6:23");
   }
-  let response =  await fetch('https://quran-endpoint.vercel.app/quran');
+  let response =  await fetch('http://api.alquran.cloud/v1/quran/en.asad');
   if (!response.ok) {
     return respond("Please specify the chapter number or name. Example: bible john 3:16");
   }
@@ -28,7 +28,7 @@ let quranSurahHandler = async (m, { conn }) => {
       throw new Error(`Please specify the surah number or name`);
     }
 
-    let surahListRes = await fetch('https://quran-endpoint.vercel.app/quran');
+    let surahListRes = await fetch('http://api.alquran.cloud/v1/quran/en.asad');
     let surahList = await surahListRes.json();
 
     let surahData = surahList.data.find(surah => 
@@ -41,7 +41,7 @@ let quranSurahHandler = async (m, { conn }) => {
       throw new Error(`Couldn't find surah with number or name "${surahInput}"`);
     }
 
-    let res = await fetch(`https://quran-endpoint.vercel.app/quran/${surahData.number}`);
+    let res = await fetch(`http://api.alquran.cloud/v1/quran/en.asad/quran/${surahData.number}`);
     
     if (!res.ok) {
       let error = await res.json(); 
