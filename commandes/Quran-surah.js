@@ -3,8 +3,21 @@ const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
 
-import fetch from 'node-fetch';
-import { translate } from '@vitalets/google-translate-api';
+zokou({
+  'nomCom': "Quran",
+  'reaction': '🎎',
+  'categorie': "General"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  const searchQuery = arguments.join(" ");
+  if (!searchQuery) {
+    return respond("Please specify the book, the chapter and the verse you want to read. Example: Quran Romans 6:23");
+  }
+  let response =  await fetch('https://quran-endpoint.vercel.app/quran');
+  if (!response.ok) {
+    return respond("Please specify the chapter number or name. Example: bible john 3:16");
+  }
+  
 
 let quranSurahHandler = async (m, { conn }) => {
   try {
