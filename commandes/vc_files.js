@@ -188,8 +188,8 @@ zokou({ nomCom: 'hack2',
     "SENDING LOG DOCUMENTS...",
     "SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED",
-    "POWERED BY LUCKY MD",
-    "By FredieTech`) 
+    "POWERED BY YOBIH BUG BOT",
+    "By MUNGAI YOBIH`) 
 
    
 
