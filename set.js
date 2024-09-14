@@ -10,14 +10,14 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || '',
+module.exports = { session: process.env.SESSION_ID || 'VAJIRA-MD=zZcnTDRT#EaQQpQFsvOV7OwLsmZi4ZgPcKxJBGY2856GX-FmGUMw',
     PREFIXE: process.env.PREFIX || ".",
-    OWNER_NAME: process.env.OWNER_NAME || "Yobih md",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || " Yobih-MD",              
+    OWNER_NAME: process.env.OWNER_NAME || "Wonder wise",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "22893658951",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "yes",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'no',
-    BOT : process.env.BOT_NAME || 'Yobih md bug Bot',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg',
+    BOT : process.env.BOT_NAME || 'Wonder wise bug Bot',
+    URL : process.env.BOT_MENU_LINKS || '',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'yes',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
