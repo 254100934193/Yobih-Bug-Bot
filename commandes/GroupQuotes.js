@@ -37,7 +37,7 @@ Powered by MUNGAI YOBIH`);
 👤 Character: ${quote.character}
 💬 Quote: ${quote.quote}
 
-Powered by *fredie tech*`);
+Powered by *mungai yobih*`);
         });
     } catch (e) {
       repondre('Erreur lors de la génération de la citation : ' + e.message);
