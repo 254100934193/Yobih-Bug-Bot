@@ -1,1 +1,121 @@
-const _0x22404f=_0x3f96;function _0x165c(){const _0x2d699a=['define','General','json','quotes','\x0a\x0a\x0a╭────────────────◆\x0a│\x20*_Engine\x20by\x20Yobih-MD._*\x0a╰─────────────────◆','http://api.urbandictionary.com/v0/define?term=','\x0a\x0a🌍\x20*_LANGUAGE_:*\x20','10MFZdKo','poll','89564GQQLlh','https://favqs.com/api/qotd','author','\x0a◆━━━━━━✦QUOTE✦━━━━━━◆\x20\x0a◇\x20_','example','genius-lyrics','4465080SBNJym','1209930JOSElp','Search','https://nekos.life/api/v2/fact','text','778908vZhfOr','https://bible-api.com/','📖\x20*THE\x20HOLY\x20BIBLE*\x0a\x0a📜\x20*_WE\x27RE\x20READING:_*\x20','replace','sendMessage','\x0a\x0a\x0a\x0a\x0a◇\x20_Engine\x20by:_\x20*YOBIH-MD*\x0a\x0a\x0a╔═════◇\x0a║◇\x20*KEEP\x20USING\x20YOBIH\x20BUG\x20BOT*\x0a╚════════════════════>\x20','\x0a\x0a\x0a\x0a\x0a*◇*\x20Engine\x20by\x20*MUNGAI*\x0a\x0a╔═════◇\x0a║◇\x20*KEEP\x20USING\x20YOBIH\x20BUG\x20BOT*\x0a╚════════════════════>\x20','8NKDfHM','fact','\x0a\x0a🔢\x20*_NUMBER\x20OF\x20VERSES:_*\x20','6202644vUrmxh','User','Please\x20specify\x20the\x20chapter\x20number\x20or\x20name.\x20Example:\x20bible\x20john\x203:16','jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO','279810MNnyPD','join','length','◆━━━━━━✦FACT✦━━━━━━◆\x20\x0a*◇*\x20','\x0a\x20Example:\x20','quote','Incorrect\x20format.\x0aExample:\x20poll\x20what\x20is\x201+1/2,\x203,\x204','reference','Please\x20specify\x20the\x20book,\x20the\x20chapter\x20and\x20the\x20verse\x20you\x20want\x20to\x20read.\x20Example:\x20bible\x20Romans\x206:23','_\x0a\x0a\x0a◇\x20*AUTHOR:*\x20','split','\x0a\x20Definition:\x20','\x0a\x20Word:\x20','16213311BRnVIv','get','list'];_0x165c=function(){return _0x2d699a;};return _0x165c();}(function(_0x2b0e88,_0x2a5f24){const _0x468cf3=_0x3f96,_0x3e9960=_0x2b0e88();while(!![]){try{const _0xf6fc50=-parseInt(_0x468cf3(0x16a))/0x1+parseInt(_0x468cf3(0x18a))/0x2+parseInt(_0x468cf3(0x18e))/0x3+-parseInt(_0x468cf3(0x183))/0x4*(-parseInt(_0x468cf3(0x181))/0x5)+parseInt(_0x468cf3(0x189))/0x6+-parseInt(_0x468cf3(0x166))/0x7*(-parseInt(_0x468cf3(0x163))/0x8)+-parseInt(_0x468cf3(0x177))/0x9;if(_0xf6fc50===_0x2a5f24)break;else _0x3e9960['push'](_0x3e9960['shift']());}catch(_0x17c453){_0x3e9960['push'](_0x3e9960['shift']());}}}(_0x165c,0x6fe7e));const {zokou}=require('../framework/zokou'),axios=require('axios'),Genius=require(_0x22404f(0x188)),Client=new Genius['Client'](_0x22404f(0x169));function _0x3f96(_0x55b0d3,_0x57335e){const _0x165cfa=_0x165c();return _0x3f96=function(_0x3f965b,_0x24b431){_0x3f965b=_0x3f965b-0x161;let _0x5e4f35=_0x165cfa[_0x3f965b];return _0x5e4f35;},_0x3f96(_0x55b0d3,_0x57335e);}zokou({'nomCom':'bible','reaction':'🎎','categorie':_0x22404f(0x17b)},async(_0x4e5357,_0x53e59b,_0xd7acb)=>{const _0x104250=_0x22404f,{repondre:_0x5310e0,arg:arguments,ms:_0x19995c}=_0xd7acb,_0x236cf8=arguments['join']('\x20');if(!_0x236cf8)return _0x5310e0(_0x104250(0x172));let _0x2e5daa=await fetch(_0x104250(0x18f)+_0x236cf8);if(!_0x2e5daa['ok'])return _0x5310e0(_0x104250(0x168));let _0x1455ae=await _0x2e5daa[_0x104250(0x17c)](),_0x1a2d04=_0x104250(0x190)+_0x1455ae[_0x104250(0x171)]+_0x104250(0x165)+_0x1455ae['verses'][_0x104250(0x16c)]+'\x0a\x0a🤍\x20*_NOW\x20READ:_*\x20'+_0x1455ae[_0x104250(0x18d)]+_0x104250(0x180)+_0x1455ae['translation_name']+_0x104250(0x17e);await _0x5310e0(_0x1a2d04);}),zokou({'nomCom':_0x22404f(0x182),'reaction':'✨','categorie':_0x22404f(0x17b)},async(_0x309205,_0x4fd19e,_0x2b962d)=>{const _0x217767=_0x22404f,{repondre:_0x10872d,arg:arguments,ms:_0x360605}=_0x2b962d,_0x493267=arguments['join']('\x20');let [_0x58734d,_0x29f542]=_0x493267[_0x217767(0x174)]('/');if(_0x493267[_0x217767(0x174)]('/')[_0x217767(0x16c)]<0x2)return _0x10872d(_0x217767(0x170));let _0x1a285e=[];for(let _0x472341 of _0x29f542[_0x217767(0x174)](',')){_0x1a285e['push'](_0x472341);}await _0x4fd19e[_0x217767(0x192)](_0x309205,{'poll':{'name':_0x58734d,'values':_0x1a285e}});}),zokou({'nomCom':_0x22404f(0x164),'reaction':'✌️','categorie':_0x22404f(0x167)},async(_0x3a4115,_0x28867c,_0x38650e)=>{const _0x3ab812=_0x22404f,{repondre:_0x1a84f2,arg:arguments,ms:_0x928f23}=_0x38650e,_0x590a15=await fetch(_0x3ab812(0x18c)),_0x29bb46=await _0x590a15[_0x3ab812(0x17c)]();_0x1a84f2(_0x3ab812(0x16d)+_0x29bb46[_0x3ab812(0x164)]+_0x3ab812(0x162));}),zokou({'nomCom':_0x22404f(0x17d),'reaction':'🗿','categorie':_0x22404f(0x167)},async(_0x1b4048,_0xfc4fe8,_0x142943)=>{const _0x49948c=_0x22404f,{repondre:_0x303c0e,arg:arguments,ms:_0x53bff6}=_0x142943,_0x54c2ca=await fetch(_0x49948c(0x184)),_0x5c9ca7=await _0x54c2ca[_0x49948c(0x17c)](),_0x2d73f7=_0x49948c(0x186)+_0x5c9ca7['quote']['body']+_0x49948c(0x173)+_0x5c9ca7[_0x49948c(0x16f)][_0x49948c(0x185)]+_0x49948c(0x161);_0x303c0e(_0x2d73f7);}),zokou({'nomCom':_0x22404f(0x17a),'reaction':'😁','categorie':_0x22404f(0x18b)},async(_0x31dc9c,_0x17777a,_0xcf870b)=>{const _0x3f2e8a=_0x22404f,{repondre:_0x1ae87f,arg:arguments,ms:_0x21106e}=_0xcf870b;if(!arguments||arguments[_0x3f2e8a(0x16c)]===0x0)return _0x1ae87f('Provide\x20a\x20term');const _0x3ad54b=arguments[_0x3f2e8a(0x16b)]('\x20');try{let {data:_0x32a4e1}=await axios[_0x3f2e8a(0x178)](_0x3f2e8a(0x17f)+_0x3ad54b);var _0x3376c3=_0x3f2e8a(0x176)+_0x3ad54b+_0x3f2e8a(0x175)+_0x32a4e1[_0x3f2e8a(0x179)][0x0]['definition'][_0x3f2e8a(0x191)](/\[/g,'')['replace'](/\]/g,'')+_0x3f2e8a(0x16e)+_0x32a4e1[_0x3f2e8a(0x179)][0x0][_0x3f2e8a(0x187)][_0x3f2e8a(0x191)](/\[/g,'')[_0x3f2e8a(0x191)](/\]/g,'');return _0x1ae87f(_0x3376c3);}catch{return _0x1ae87f('No\x20result\x20for\x20'+_0x3ad54b);}});
+
+const { zokou } = require("../framework/zokou");
+const axios = require("axios");
+const Genius = require("genius-lyrics");
+const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
+
+zokou({
+  'nomCom': "bible",
+  'reaction': '🎎',
+  'categorie': "General"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  const searchQuery = arguments.join(" ");
+  if (!searchQuery) {
+    return respond("Please specify the book, the chapter and the verse you want to read. Example: bible Romans 6:23");
+  }
+  let response = await fetch("https://bible-api.com/" + searchQuery);
+  if (!response.ok) {
+    return respond("Please specify the chapter number or name. Example: bible john 3:16");
+  }
+  let data = await response.json();
+  let replyText = "📖 *THE HOLY BIBLE*\n\n📜 *_WE'RE READING:_* " + data.reference + "\n\n🔢 *_NUMBER OF VERSES:_* " + data.verses.length + "\n\n🤍 *_NOW READ:_* " + data.text + "\n\n🌍 *_LANGUAGE_:* " + data.translation_name + "\n\n\n╭────────────────◆\n│ *_Engine by Yobih-MD._*\n╰─────────────────◆";
+  await respond(replyText);
+});
+
+zokou({
+  'nomCom': "poll",
+  'reaction': '✨',
+  'categorie': "General"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  const pollContent = arguments.join(" ");
+  let [question, options] = pollContent.split('/');
+  if (pollContent.split('/').length < 2) {
+    return respond("Incorrect format.\nExample: poll what is 1+1/2, 3, 4");
+  }
+  let optionsArray = [];
+  for (let option of options.split(',')) {
+    optionsArray.push(option);
+  }
+  await sender.sendMessage(message, {
+    'poll': {
+      'name': question,
+      'values': optionsArray
+    }
+  });
+});
+
+zokou({
+  'nomCom': "fact",
+  'reaction': '✌️',
+  'categorie': "User"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  const factResponse = await fetch("https://nekos.life/api/v2/fact");
+  const factData = await factResponse.json();
+  respond("◆━━━━━━✦FACT✦━━━━━━◆ \n*◇* " + factData.fact + "\n\n\n\n\n*◇* Engine by *MUNGAI YOBIH*\n\n╔═════◇\n║◇ *KEEP USING YOBIH BUG BOT*\n╚════════════════════> ");
+});
+
+zokou({
+  'nomCom': "quotes",
+  'reaction': '🗿',
+  'categorie': "User"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  const quoteResponse = await fetch("https://favqs.com/api/qotd");
+  const quoteData = await quoteResponse.json();
+  const quoteMessage = "\n◆━━━━━━✦QUOTE✦━━━━━━◆ \n◇ _" + quoteData.quote.body + "_\n\n\n◇ *AUTHOR:* " + quoteData.quote.author + "\n\n\n\n\n◇ _Engine by:_ *MUNGAI YOBIH*\n\n\n╔═════◇\n║◇ *KEEP USING YOBIH BUG BOT*\n╚════════════════════> ";
+  respond(quoteMessage);
+});
+
+zokou({
+  'nomCom': "define",
+  'reaction': '😁',
+  'categorie': "Search"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  if (!arguments || arguments.length === 0) {
+    return respond("Provide a term");
+  }
+  const term = arguments.join(" ");
+  try {
+    let { data: definitionData } = await axios.get("http://api.urbandictionary.com/v0/define?term=" + term);
+    var definitionText = "\n Word: " + term + "\n Definition: " + definitionData.list[0].definition.replace(/\[/g, '').replace(/\]/g, '') + "\n Example: " + definitionData.list[0].example.replace(/\[/g, '').replace(/\]/g, '');
+    return respond(definitionText);
+  } catch {
+    return respond("No result for " + term);
+  }
+});
+
+zokou({
+  'nomCom': "lyrics",
+  'reaction': '✨',
+  'categorie': "Search"
+}, async (message, sender, args) => {
+  const { repondre: respond, arg: arguments, ms: metadata } = args;
+  try {
+    if (!arguments || arguments.length === 0) {
+      return respond("Please provide me the song name");
+    }
+    const songName = arguments.join(" ");
+    const songs = await Client.songs.search(songName);
+    const firstSong = songs[0];
+    console.log(firstSong);
+    const lyrics = await firstSong.lyrics();
+    const artist = await firstSong.artist.name;
+    const title = await firstSong.title;
+    const lyricsMessage = "*YOBIH BUG BOT LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
+    await sender.sendMessage(message, {
+      'image': {
+        'url': "./media/lyrics.jpg"
+      },
+      'caption': lyricsMessage by MUNGAI BRIAN
+    }, {
+      'quoted': metadata
+    });
+  } catch (error) {
+    respond("Error occurred: " + error);
+    console.log(error);
+  }
+});
