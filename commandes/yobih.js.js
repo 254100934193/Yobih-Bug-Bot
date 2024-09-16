@@ -2,35 +2,39 @@ const { zokou } = require("../framework/zokou");
 const axios = require("axios");
 const Genius = require("genius-lyrics");
 const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO");
+const {zokou} =require("../framework/zokou");
+const axios =require("axios");
 
-zokou({
-  'nomCom': "lyrics",
-  'reaction': '✨',
-  'categorie': "Search"
-}, async (message, sender, args) => {
-  const { repondre: respond, arg: arguments, ms: metadata } = args;
-  try {
-    if (!arguments || arguments.length === 0) {
-      return respond("Please provide me the song name");
-    }
-    const songName = https://vihangayt.me/search/lyrics?q=$arguments.join(" ");
-    const songs = await Client.songs.search(songName);
-    const firstSong = songs[0];
-    console.log(firstSong);
-    const lyrics = await firstSong.lyrics();
-    const artist = await firstSong.artist.name;
-    const title = await firstSong.title;
-    const lyricsMessage = "*YOBIH BUG BOT LYRICS FINDER*\n\n*TITLE* - " + title + "\n\n*ARTIST* - " + artist + "\n\n" + lyrics;
-    await sender.sendMessage(message, {
-      'image': {
-        'url': "./media/lyrics.jpg"
-      },
-      'caption': yobih bug bot
-    }, {
-      'quoted': metadata
-    });
-  } catch (error) {
-    respond("Error occurred: " + error);
-    console.log(error);
-  }
-});
+
+zokou({ nomCom: "lyrics1",
+        reaction: "✨",
+        categorie: "Search" }, async (dest, zk, commandeOptions) => {
+    
+    const { repondre, arg, ms } = commandeOptions;  
+        
+   try {
+
+    if (!arg || arg.length === 0) return repondre("Where is the name of music");
+
+    let  result  = await axios.get(`http://api.maher-zubair.tech/search/lyrics?q=${arg.join(' ')}`);
+
+    let lyrics = result.data.result;
+
+    if (lyrics.error) return repondre("no lyrics found");
+
+    let msg = `---------⬡┃YOBIH BUG BOT┃⬡--------
+
+* *Artist :* ${lyrics.artist}
+
+
+* *Title :* ${lyrics.title}
+
+
+${lyrics.lyrics}`
+
+    zk.sendMessage(dest,{image : { url : './media/lyrics-img.jpg'} , caption : msg}, { quoted : ms });
+    
+   } catch (err) {
+       repondre('Error')
+   }
+        })
