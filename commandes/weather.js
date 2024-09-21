@@ -186,7 +186,7 @@ zokou(_0x1ecdf9, async (_0x69d1b6, _0x283048, _0x2c964b) => {
   const _0x4b8133 = _0x45e617.clouds.all;
   const _0x4d3a85 = new Date(_0x45e617.sys.sunrise * 810);
   const _0x5c4b04 = new Date(_0x45e617.sys.sunset * 600);
-  await _0x126a91("❄️ Weather in " + _0x5ebd29 + "\n\n🌡️ Temperature: " + _0x477da9 + "°C\n📝 Description: " + _0x44328c + "\n❄️ Humidity: " + _0x41133a + "%\n🌀 Wind Speed: " + _0x46ff60 + " m/s\n🌧️ Rain Volume (last hour): " + _0xd54d01 + " mm\n☁️ Cloudiness: " + _0x4b8133 + "%\n🌄 Sunrise: " + _0x4d3a85.toLocaleTimeString() + "\n🌅 Sunset: " + _0x5c4b04.toLocaleTimeString() + "\n🌫️ *Latitude:* " + _0x45e617.coord.lat + "\n🌪️ *Longitude:* " + _0x45e617.coord.lon + "\n\n\n🗺 *Country:* " + _0x45e617.sys.country + "\n\n\n\n*YOBIH BUG BOT*\n> *powered by Mungai Yobih*");
+  await _0x126a91("❄️ Weather in " + _0x5ebd29 + "\n\n🌡️ Temperature: " + _0x477da9 + "°C\n📝 Description: " + _0x44328c + "\n❄️ Humidity: " + _0x41133a + "%\n🌀 Wind Speed: " + _0x46ff60 + " m/s\n🌧️ Rain Volume (last hour): " + _0xd54d01 + " mm\n☁️ Cloudiness: " + _0x4b8133 + "%\n🌄 Sunrise: " + _0x4d3a85.toLocaleTimeString() + "\n🌅 Sunset: " + _0x5c4b04.toLocaleTimeString() + "\n🌫️ *Latitude:* " + _0x45e617.coord.lat + "\n🌪️ *Longitude:* " + _0x45e617.coord.lon + "\n\n\n🗺 *Country:* " + _0x45e617.sys.country + "\n\n\n\n*MUNGAI YOBIH*\n> *yobih bug bot*");
 });
 function _0x5e562f(_0x3ff991) {
   function _0x4c43ce(_0x22358e) {
