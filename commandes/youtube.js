@@ -23,7 +23,7 @@ zokou({
     _0x35a301 = _0x4dc16c.videos;
     if (_0x35a301 && _0x35a301.length > 0) {
       const _0x1fc663 = _0x35a301[0].url;
-      const _0x1f08b9 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x1fc663) + "&apikey=" + "giftedtechk");
+      const _0x1f08b9 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x1fc663) + "&apikey=" + "giftedtechk");
       const _0x31d89b = await _0x1f08b9.json();
       if (_0x31d89b.status === 200 && _0x31d89b.success) {
         const _0xaaff03 = _0x31d89b.result.download_url;
@@ -77,7 +77,7 @@ zokou({
     _0xf5f434 = _0x4aa79e.videos;
     if (_0xf5f434 && _0xf5f434.length > 0) {
       const _0x2437d6 = _0xf5f434[0].url;
-      const _0x426496 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x2437d6) + "&apikey=" + "giftedtechk");
+      const _0x426496 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x2437d6) + "&apikey=" + "giftedtechk");
       const _0x4ecd9d = await _0x426496.json();
       if (_0x4ecd9d.status === 200 && _0x4ecd9d.success) {
         const _0x420470 = _0x4ecd9d.result.download_url;
@@ -131,7 +131,7 @@ zokou({
     _0x525817 = _0x453022.videos;
     if (_0x525817 && _0x525817.length > 0) {
       const _0x2013a8 = _0x525817[0].url;
-      const _0x1ff9d6 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x2013a8) + "&apikey=" + "giftedtechk");
+      const _0x1ff9d6 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x2013a8) + "&apikey=" + "giftedtechk");
       const _0x4fc0e8 = await _0x1ff9d6.json();
       if (_0x4fc0e8.status === 200 && _0x4fc0e8.success) {
         const _0x1bc2eb = _0x4fc0e8.result.download_url;
