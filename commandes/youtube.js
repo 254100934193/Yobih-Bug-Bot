@@ -6,161 +6,161 @@ zokou({
   'nomCom': "play",
   'categorie': "Search",
   'reaction': '🎧'
-}, async (_0x30bfdc, _0x34aa5e, _0x4c3b8b) => {
+}, async (_0x2ff33f, _0x540558, _0x46173d) => {
   const {
-    ms: _0x3b0c84,
-    repondre: _0x13f6c9,
-    arg: _0x412c79
-  } = _0x4c3b8b;
-  if (!_0x412c79[0]) {
-    _0x13f6c9("Please insert a song name.");
+    ms: _0x571b06,
+    repondre: _0x1349e8,
+    arg: _0x263b1f
+  } = _0x46173d;
+  if (!_0x263b1f[0]) {
+    _0x1349e8("Please insert a song name.");
     return;
   }
   try {
-    let _0x5e5ebc = _0x412c79.join(" ");
-    let _0x35a301 = [];
-    const _0x4dc16c = await yts(_0x5e5ebc);
-    _0x35a301 = _0x4dc16c.videos;
-    if (_0x35a301 && _0x35a301.length > 0) {
-      const _0x1fc663 = _0x35a301[0].url;
-      const _0x1f08b9 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x3ad715) + "&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
-      const _0x31d89b = await _0x1f08b9.json();
-      if (_0x31d89b.status === 200 && _0x31d89b.success) {
-        const _0xaaff03 = _0x31d89b.result.download_url;
-        const _0x30d866 = {
+    let _0x1d45b3 = _0x263b1f.join(" ");
+    let _0x128231 = [];
+    const _0x53c0f4 = await yts(_0x1d45b3);
+    _0x128231 = _0x53c0f4.videos;
+    if (_0x128231 && _0x128231.length > 0) {
+      const _0x4dc262 = _0x128231[0].url;
+      const _0x302999 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x4dc262) + "&apikey=" + "giftedtechk");
+      const _0x2a5db8 = await _0x302999.json();
+      if (_0x2a5db8.status === 200 && _0x2a5db8.success) {
+        const _0x548e38 = _0x2a5db8.result.download_url;
+        const _0x4d4022 = {
           'image': {
-            'url': _0x35a301[0].thumbnail
+            'url': _0x128231[0].thumbnail
           },
-          'caption': "*YOBIH MUNGAI SONG PLAYER*"
+          'caption': "*YOBIH BUG BOT MEDIA PLAYER*"
         };
-        await _0x34aa5e.sendMessage(_0x30bfdc, _0x30d866, {
-          'quoted': _0x3b0c84
+        await _0x540558.sendMessage(_0x2ff33f, _0x4d4022, {
+          'quoted': _0x571b06
         });
-        await _0x34aa5e.sendMessage(_0x30bfdc, {
+        await _0x540558.sendMessage(_0x2ff33f, {
           'audio': {
-            'url': _0xaaff03
+            'url': _0x548e38
           },
           'mimetype': "audio/mp4"
         }, {
-          'quoted': _0x3b0c84
+          'quoted': _0x571b06
         });
-        _0x13f6c9("*Downloaded*");
+        _0x1349e8("*Lol..media successfully downloaded by Mungai*");
       } else {
-        _0x13f6c9("Failed to download audio. Please try again later.");
+        _0x1349e8("Failed to download audio. Please try again later.");
       }
     } else {
-      _0x13f6c9("No audio found.");
+      _0x1349e8("No audio found.");
     }
-  } catch (_0x516123) {
-    console.error("Error from API:", _0x516123);
-    _0x13f6c9("An error occurred while searching or downloading the audio.");
+  } catch (_0xa5a7d) {
+    console.error("Error from API:", _0xa5a7d);
+    _0x1349e8("An error occurred while searching or downloading the audio.");
   }
 });
 zokou({
   'nomCom': "song",
   'categorie': "Search",
   'reaction': '🎸'
-}, async (_0x30de0e, _0x3d0e37, _0x28fdf5) => {
+}, async (_0x38217c, _0x32d241, _0x5af5bc) => {
   const {
-    ms: _0x55df62,
-    repondre: _0x41d0e4,
-    arg: _0x390c6d
-  } = _0x28fdf5;
-  if (!_0x390c6d[0]) {
-    _0x41d0e4("Please insert a song name.");
+    ms: _0x1b4ba0,
+    repondre: _0x2594b0,
+    arg: _0x2b0c40
+  } = _0x5af5bc;
+  if (!_0x2b0c40[0]) {
+    _0x2594b0("Please insert a song name.");
     return;
   }
   try {
-    let _0x5ac036 = _0x390c6d.join(" ");
-    let _0xf5f434 = [];
-    const _0x4aa79e = await yts(_0x5ac036);
-    _0xf5f434 = _0x4aa79e.videos;
-    if (_0xf5f434 && _0xf5f434.length > 0) {
-      const _0x2437d6 = _0xf5f434[0].url;
-      const _0x426496 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x3ad715) + "&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
-      const _0x4ecd9d = await _0x426496.json();
-      if (_0x4ecd9d.status === 200 && _0x4ecd9d.success) {
-        const _0x420470 = _0x4ecd9d.result.download_url;
-        const _0x1ec267 = {
+    let _0xb11891 = _0x2b0c40.join(" ");
+    let _0x1d9a75 = [];
+    const _0x5513df = await yts(_0xb11891);
+    _0x1d9a75 = _0x5513df.videos;
+    if (_0x1d9a75 && _0x1d9a75.length > 0) {
+      const _0x2b08aa = _0x1d9a75[0].url;
+      const _0x1c2fb5 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x2b08aa) + "&apikey=" + "giftedtechk");
+      const _0x2c35d1 = await _0x1c2fb5.json();
+      if (_0x2c35d1.status === 200 && _0x2c35d1.success) {
+        const _0xb70b89 = _0x2c35d1.result.download_url;
+        const _0x5d26cd = {
           'image': {
-            'url': _0xf5f434[0].thumbnail
+            'url': _0x1d9a75[0].thumbnail
           },
-          'caption': "*YOBIH MUNGAI SONG PLAYER*"
+          'caption': "*YOBIH BUG BOT MEDIA PLAYER*"
         };
-        await _0x3d0e37.sendMessage(_0x30de0e, _0x1ec267, {
-          'quoted': _0x55df62
+        await _0x32d241.sendMessage(_0x38217c, _0x5d26cd, {
+          'quoted': _0x1b4ba0
         });
-        await _0x3d0e37.sendMessage(_0x30de0e, {
+        await _0x32d241.sendMessage(_0x38217c, {
           'document': {
-            'url': _0x420470
+            'url': _0xb70b89
           },
           'mimetype': "audio/mpeg"
         }, {
-          'quoted': _0x55df62
+          'quoted': _0x1b4ba0
         });
-        _0x41d0e4("*Downloaded*");
+        _0x2594b0("*Downloaded*");
       } else {
-        _0x41d0e4("Failed to download audio. Please try again later.");
+        _0x2594b0("Failed to download audio. Please try again later.");
       }
     } else {
-      _0x41d0e4("No audio found.");
+      _0x2594b0("No audio found.");
     }
-  } catch (_0x238a9e) {
-    console.error("Error from API:", _0x238a9e);
-    _0x41d0e4("An error occurred while searching or downloading the audio.");
+  } catch (_0x33de37) {
+    console.error("Error from API:", _0x33de37);
+    _0x2594b0("An error occurred while searching or downloading the audio.");
   }
 });
 zokou({
   'nomCom': "video",
   'categorie': "Search",
   'reaction': '🎬'
-}, async (_0x4c7e97, _0x4f18d4, _0x2655b2) => {
+}, async (_0x6c0729, _0x29e56a, _0x1ecfb7) => {
   const {
-    ms: _0x2c2317,
-    repondre: _0x316380,
-    arg: _0x35f57c
-  } = _0x2655b2;
-  if (!_0x35f57c[0]) {
-    _0x316380("Please insert a song/video name.");
+    ms: _0x34d9f2,
+    repondre: _0x172f71,
+    arg: _0x3efd42
+  } = _0x1ecfb7;
+  if (!_0x3efd42[0]) {
+    _0x172f71("Please insert a song/video name.");
     return;
   }
   try {
-    let _0x4729c0 = _0x35f57c.join(" ");
-    let _0x525817 = [];
-    const _0x453022 = await yts(_0x4729c0);
-    _0x525817 = _0x453022.videos;
-    if (_0x525817 && _0x525817.length > 0) {
-      const _0x2013a8 = _0x525817[0].url;
-      const _0x1ff9d6 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=" + encodeURIComponent(_0x3ad715) + "&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
-      const _0x4fc0e8 = await _0x1ff9d6.json();
-      if (_0x4fc0e8.status === 200 && _0x4fc0e8.success) {
-        const _0x1bc2eb = _0x4fc0e8.result.download_url;
-        const _0x1f3ef0 = {
+    let _0x55760c = _0x3efd42.join(" ");
+    let _0x3c942e = [];
+    const _0x2734e1 = await yts(_0x55760c);
+    _0x3c942e = _0x2734e1.videos;
+    if (_0x3c942e && _0x3c942e.length > 0) {
+      const _0x592a15 = _0x3c942e[0].url;
+      const _0x1f6f93 = await fetch("https://gifted-apis-third-30b2fdbb9819.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x592a15) + "&apikey=" + "giftedtechk");
+      const _0x30e721 = await _0x1f6f93.json();
+      if (_0x30e721.status === 200 && _0x30e721.success) {
+        const _0x39d02c = _0x30e721.result.download_url;
+        const _0x2b92a1 = {
           'image': {
-            'url': _0x525817[0].thumbnail
+            'url': _0x3c942e[0].thumbnail
           },
-          'caption': "*YOBIH MUNGAI VIDEO PLAYER*"
+          'caption': "*YOBIH BUG BOT MEDIA PLAYER*"
         };
-        await _0x4f18d4.sendMessage(_0x4c7e97, _0x1f3ef0, {
-          'quoted': _0x2c2317
+        await _0x29e56a.sendMessage(_0x6c0729, _0x2b92a1, {
+          'quoted': _0x34d9f2
         });
-        await _0x4f18d4.sendMessage(_0x4c7e97, {
+        await _0x29e56a.sendMessage(_0x6c0729, {
           'video': {
-            'url': _0x1bc2eb
+            'url': _0x39d02c
           },
           'mimetype': "video/mp4"
         }, {
-          'quoted': _0x2c2317
+          'quoted': _0x34d9f2
         });
-        _0x316380("*Downloaded*");
+        _0x172f71("*Lol..media successfully downloaded by Mungai*");
       } else {
-        _0x316380("Failed to download the video. Please try again later.");
+        _0x172f71("Failed to download the video. Please try again later.");
       }
     } else {
-      _0x316380("No videos found.");
+      _0x172f71("No videos found.");
     }
-  } catch (_0x454ed9) {
-    console.error("Error from API:", _0x454ed9);
-    _0x316380("An error occurred while searching or downloading the video.");
+  } catch (_0xb66bb) {
+    console.error("Error from API:", _0xb66bb);
+    _0x172f71("An error occurred while searching or downloading the video.");
   }
 });
