@@ -23,7 +23,7 @@ zokou({
     _0x128231 = _0x53c0f4.videos;
     if (_0x128231 && _0x128231.length > 0) {
       const _0x4dc262 = _0x128231[0].url;
-      const _0x302999 = await fetch("https://api.cafirexos.com/api/v1/ytmp3?url=" + _0x1e5673.url, _0x271835");
+      const _0x302999 = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp3?url=" + encodeURIComponent(_0x571980) + "&apikey=" + "ibrahimtech_ai");
       const _0x2a5db8 = await _0x302999.json();
       if (_0x2a5db8.status === 200 && _0x2a5db8.success) {
         const _0x548e38 = _0x2a5db8.result.download_url;
@@ -77,7 +77,7 @@ zokou({
     _0x1d9a75 = _0x5513df.videos;
     if (_0x1d9a75 && _0x1d9a75.length > 0) {
       const _0x2b08aa = _0x1d9a75[0].url;
-      const _0x1c2fb5 = await fetch("https://api.cafirexos.com/api/v1/ytmp3?url=" + _0x1e5673.url, _0x271835");
+      const _0x1c2fb5 = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp3?url=" + encodeURIComponent(_0x571980) + "&apikey=" + "ibrahimtech_ai");
       const _0x2c35d1 = await _0x1c2fb5.json();
       if (_0x2c35d1.status === 200 && _0x2c35d1.success) {
         const _0xb70b89 = _0x2c35d1.result.download_url;
@@ -131,7 +131,7 @@ zokou({
     _0x3c942e = _0x2734e1.videos;
     if (_0x3c942e && _0x3c942e.length > 0) {
       const _0x592a15 = _0x3c942e[0].url;
-      const _0x1f6f93 = await fetch("https://api.cafirexos.com/api/v1/ytmp3?url=" + _0x1e5673.url, _0x271835");
+      const _0x1f6f93 = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp4?url=" + encodeURIComponent(_0x194b74) + "&apikey=" + "ibrahimtech_ai");
       const _0x30e721 = await _0x1f6f93.json();
       if (_0x30e721.status === 200 && _0x30e721.success) {
         const _0x39d02c = _0x30e721.result.download_url;
