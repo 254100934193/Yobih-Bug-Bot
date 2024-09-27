@@ -1,1 +1,166 @@
-const _0x7e265e=_0xebe4;function _0x49d1(){const _0x63e9fc=['getInfo','videos','Erreur\x20lors\x20de\x20la\x20recherche\x20ou\x20du\x20téléchargement\x20de\x20la\x20vidéo\x20:','pipe','\x0a*song\x20name\x20:*\x20_','Erreur\x20lors\x20de\x20l\x27écriture\x20du\x20fichier\x20vidéo\x20:','Envoi\x20du\x20fichier\x20audio\x20terminé\x20!','sendMessage','insert\x20video\x20name','Une\x20erreur\x20est\x20survenue\x20lors\x20de\x20l\x27écriture\x20du\x20fichier\x20audio.','*Zokou-Md','386565jceVrc','Erreur\x20lors\x20de\x20l\x27écriture\x20du\x20fichier\x20audio\x20:','35820SXXClg','ytdl-core','No\x20video\x20found','Une\x20erreur\x20est\x20survenue\x20lors\x20de\x20la\x20recherche\x20ou\x20du\x20téléchargement\x20de\x20la\x20vidéo.','_\x0a\x0a*Url\x20:*\x20_','_\x0a\x0a*Time\x20:*\x20_','thumbnail','audioonly','createWriteStream','./video.mp4','_\x0a*Time\x20:*\x20_','finish','highestaudio','2061308tZkVYE','4741990osCUXx','18lKqBUq','log','join','audio.mp3','timestamp','length','url','video.mp4','*Video\x20name\x20:*\x20_','wich\x20song\x20do\x20you\x20want\x20Stupid\x20niggah\x20since\x20you\x20can\x27t\x20go\x20to\x20YouTube.','564lfchol','28FrxDCs','../framework/zokou','error','3924239vesikZ','Search','_\x0a\x0a\x0a_*on\x20downloading...*_\x0a\x0a','formats','14PKnviC','238055YisQDc','239312OHmFWD','title','video'];_0x49d1=function(){return _0x63e9fc;};return _0x49d1();}function _0xebe4(_0xe26770,_0x4e3f59){const _0x49d131=_0x49d1();return _0xebe4=function(_0xebe443,_0x52a39b){_0xebe443=_0xebe443-0x1be;let _0x6dc1fd=_0x49d131[_0xebe443];return _0x6dc1fd;},_0xebe4(_0xe26770,_0x4e3f59);}(function(_0x3eecc3,_0x4a4cdc){const _0x5d3ed0=_0xebe4,_0x39af25=_0x3eecc3();while(!![]){try{const _0x14cfc1=parseInt(_0x5d3ed0(0x1cf))/0x1+-parseInt(_0x5d3ed0(0x1ce))/0x2*(parseInt(_0x5d3ed0(0x1de))/0x3)+parseInt(_0x5d3ed0(0x1ed))/0x4+parseInt(_0x5d3ed0(0x1e0))/0x5*(-parseInt(_0x5d3ed0(0x1c6))/0x6)+-parseInt(_0x5d3ed0(0x1c7))/0x7*(-parseInt(_0x5d3ed0(0x1d0))/0x8)+-parseInt(_0x5d3ed0(0x1ef))/0x9*(-parseInt(_0x5d3ed0(0x1ee))/0xa)+parseInt(_0x5d3ed0(0x1ca))/0xb;if(_0x14cfc1===_0x4a4cdc)break;else _0x39af25['push'](_0x39af25['shift']());}catch(_0x3b0c79){_0x39af25['push'](_0x39af25['shift']());}}}(_0x49d1,0x932a0));const {zokou}=require(_0x7e265e(0x1c8)),yts=require('yt-search'),ytdl=require(_0x7e265e(0x1e1)),fs=require('fs');zokou({'nomCom':'song','categorie':_0x7e265e(0x1cb),'reaction':'💿'},async(_0x35f59c,_0x224783,_0x1d742e)=>{const _0x35e664=_0x7e265e,{ms:_0x351f54,repondre:_0x202582,arg:_0x2f0bde}=_0x1d742e;if(!_0x2f0bde[0x0]){_0x202582(_0x35e664(0x1c5));return;}try{let _0x499d53=_0x2f0bde[_0x35e664(0x1be)]('\x20');const _0x3a4aa3=await yts(_0x499d53),_0x34ab7f=_0x3a4aa3[_0x35e664(0x1d4)];if(_0x34ab7f&&_0x34ab7f[_0x35e664(0x1c1)]>0x0&&_0x34ab7f[0x0]){const _0x8a415=_0x34ab7f[0x0][_0x35e664(0x1c2)];let _0x472f24={'image':{'url':_0x34ab7f[0x0][_0x35e664(0x1e6)]},'caption':_0x35e664(0x1d7)+_0x34ab7f[0x0][_0x35e664(0x1d1)]+_0x35e664(0x1e5)+_0x34ab7f[0x0][_0x35e664(0x1c0)]+_0x35e664(0x1e4)+_0x34ab7f[0x0][_0x35e664(0x1c2)]+_0x35e664(0x1cc)};_0x224783[_0x35e664(0x1da)](_0x35f59c,_0x472f24,{'quoted':_0x351f54});const _0xac2271=ytdl(_0x8a415,{'filter':_0x35e664(0x1e7),'quality':_0x35e664(0x1ec)}),_0x411d72=fs[_0x35e664(0x1e8)](_0x35e664(0x1bf));_0xac2271[_0x35e664(0x1d6)](_0x411d72),_0x411d72['on'](_0x35e664(0x1eb),()=>{const _0x43a956=_0x35e664;_0x224783[_0x43a956(0x1da)](_0x35f59c,{'audio':{'url':_0x43a956(0x1bf)},'mimetype':'audio/mp4'},{'quoted':_0x351f54,'ptt':![]}),console[_0x43a956(0x1f0)](_0x43a956(0x1d9));}),_0x411d72['on'](_0x35e664(0x1c9),_0x440620=>{const _0x29c3fd=_0x35e664;console[_0x29c3fd(0x1c9)](_0x29c3fd(0x1df),_0x440620),_0x202582(_0x29c3fd(0x1dc));});}else _0x202582('Aucune\x20vidéo\x20trouvée.');}catch(_0x28212f){console[_0x35e664(0x1c9)](_0x35e664(0x1d5),_0x28212f),_0x202582(_0x35e664(0x1e3));}}),zokou({'nomCom':_0x7e265e(0x1d2),'categorie':_0x7e265e(0x1cb),'reaction':'🎥'},async(_0x2e9b84,_0x5cf343,_0x2c3c44)=>{const _0x51f3e2=_0x7e265e,{arg:_0x53477b,ms:_0x4bd545,repondre:_0x2efe3d}=_0x2c3c44;if(!_0x53477b[0x0]){_0x2efe3d(_0x51f3e2(0x1db));return;}const _0x4ed32d=_0x53477b[_0x51f3e2(0x1be)]('\x20');try{const _0x25851e=await yts(_0x4ed32d),_0x482c4d=_0x25851e[_0x51f3e2(0x1d4)];if(_0x482c4d&&_0x482c4d[_0x51f3e2(0x1c1)]>0x0&&_0x482c4d[0x0]){const _0x3880d4=_0x482c4d[0x0];let _0x3d125d={'image':{'url':_0x482c4d[0x0]['thumbnail']},'caption':_0x51f3e2(0x1c4)+_0x3880d4['title']+_0x51f3e2(0x1ea)+_0x3880d4['timestamp']+'_\x0a*Url\x20:*\x20_'+_0x3880d4[_0x51f3e2(0x1c2)]+'_\x0a_*On\x20downloading...*_\x0a\x0a'};_0x5cf343[_0x51f3e2(0x1da)](_0x2e9b84,_0x3d125d,{'quoted':_0x4bd545});const _0x557327=await ytdl[_0x51f3e2(0x1d3)](_0x3880d4[_0x51f3e2(0x1c2)]),_0x1eabde=ytdl['chooseFormat'](_0x557327[_0x51f3e2(0x1cd)],{'quality':'18'}),_0x4d6888=ytdl['downloadFromInfo'](_0x557327,{'format':_0x1eabde}),_0x197a59=fs[_0x51f3e2(0x1e8)](_0x51f3e2(0x1c3));_0x4d6888[_0x51f3e2(0x1d6)](_0x197a59),_0x197a59['on']('finish',()=>{const _0x3876d0=_0x51f3e2;_0x5cf343[_0x3876d0(0x1da)](_0x2e9b84,{'video':{'url':_0x3876d0(0x1e9)},'caption':_0x3876d0(0x1dd),'gifPlayback':![]},{'quoted':_0x4bd545});}),_0x197a59['on']('error',_0x3e85b6=>{const _0x55de29=_0x51f3e2;console[_0x55de29(0x1c9)](_0x55de29(0x1d8),_0x3e85b6),_0x2efe3d('Une\x20erreur\x20est\x20survenue\x20lors\x20de\x20l\x27écriture\x20du\x20fichier\x20vidéo.');});}else _0x2efe3d(_0x51f3e2(0x1e2));}catch(_0x28ded4){console[_0x51f3e2(0x1c9)]('Erreur\x20lors\x20de\x20la\x20recherche\x20ou\x20du\x20téléchargement\x20de\x20la\x20vidéo\x20:',_0x28ded4),_0x2efe3d(_0x51f3e2(0x1e3));}});
+const {
+  zokou
+} = require("../framework/zokou");
+const yts = require("yt-search");
+zokou({
+  'nomCom': "play",
+  'categorie': "Search",
+  'reaction': '🎧'
+}, async (_0x2ff33f, _0x540558, _0x46173d) => {
+  const {
+    ms: _0x571b06,
+    repondre: _0x1349e8,
+    arg: _0x263b1f
+  } = _0x46173d;
+  if (!_0x263b1f[0]) {
+    _0x1349e8("Please insert a song name.");
+    return;
+  }
+  try {
+    let _0x1d45b3 = _0x263b1f.join(" ");
+    let _0x128231 = [];
+    const _0x53c0f4 = await yts(_0x1d45b3);
+    _0x128231 = _0x53c0f4.videos;
+    if (_0x128231 && _0x128231.length > 0) {
+      const _0x4dc262 = _0x128231[0].url;
+      const _0x302999 = await fetch("https://api-gifted-test-460bb726857c.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x48021e) + "&apikey=" + "gifteddevskk");
+      const _0x2a5db8 = await _0x302999.json();
+      if (_0x2a5db8.status === 200 && _0x2a5db8.success) {
+        const _0x548e38 = _0x2a5db8.result.download_url;
+        const _0x4d4022 = {
+          'image': {
+            'url': _0x128231[0].thumbnail
+          },
+          'caption': "*MUNGAI YOBIH MEDIA PLAYER*"
+        };
+        await _0x540558.sendMessage(_0x2ff33f, _0x4d4022, {
+          'quoted': _0x571b06
+        });
+        await _0x540558.sendMessage(_0x2ff33f, {
+          'audio': {
+            'url': _0x548e38
+          },
+          'mimetype': "audio/mp4"
+        }, {
+          'quoted': _0x571b06
+        });
+        _0x1349e8("*Lol..media successfully downloaded*");
+      } else {
+        _0x1349e8("Failed to download audio. Please try again later.");
+      }
+    } else {
+      _0x1349e8("No audio found.");
+    }
+  } catch (_0xa5a7d) {
+    console.error("Error from API:", _0xa5a7d);
+    _0x1349e8("An error occurred while searching or downloading the audio.");
+  }
+});
+zokou({
+  'nomCom': "song",
+  'categorie': "Search",
+  'reaction': '🎸'
+}, async (_0x38217c, _0x32d241, _0x5af5bc) => {
+  const {
+    ms: _0x1b4ba0,
+    repondre: _0x2594b0,
+    arg: _0x2b0c40
+  } = _0x5af5bc;
+  if (!_0x2b0c40[0]) {
+    _0x2594b0("Please insert a song name.");
+    return;
+  }
+  try {
+    let _0xb11891 = _0x2b0c40.join(" ");
+    let _0x1d9a75 = [];
+    const _0x5513df = await yts(_0xb11891);
+    _0x1d9a75 = _0x5513df.videos;
+    if (_0x1d9a75 && _0x1d9a75.length > 0) {
+      const _0x2b08aa = _0x1d9a75[0].url;
+      const _0x1c2fb5 = await fetch("https://api-gifted-test-460bb726857c.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x48021e) + "&apikey=" + "gifteddevskk");
+      const _0x2c35d1 = await _0x1c2fb5.json();
+      if (_0x2c35d1.status === 200 && _0x2c35d1.success) {
+        const _0xb70b89 = _0x2c35d1.result.download_url;
+        const _0x5d26cd = {
+          'image': {
+            'url': _0x1d9a75[0].thumbnail
+          },
+          'caption': "*MUNGAI YOBIH MEDIA PLAYER*"
+        };
+        await _0x32d241.sendMessage(_0x38217c, _0x5d26cd, {
+          'quoted': _0x1b4ba0
+        });
+        await _0x32d241.sendMessage(_0x38217c, {
+          'document': {
+            'url': _0xb70b89
+          },
+          'mimetype': "audio/mpeg"
+        }, {
+          'quoted': _0x1b4ba0
+        });
+        _0x2594b0("*Downloaded*");
+      } else {
+        _0x2594b0("Failed to download audio. Please try again later.");
+      }
+    } else {
+      _0x2594b0("No audio found.");
+    }
+  } catch (_0x33de37) {
+    console.error("Error from API:", _0x33de37);
+    _0x2594b0("An error occurred while searching or downloading the audio.");
+  }
+});
+zokou({
+  'nomCom': "video",
+  'categorie': "Search",
+  'reaction': '🎬'
+}, async (_0x6c0729, _0x29e56a, _0x1ecfb7) => {
+  const {
+    ms: _0x34d9f2,
+    repondre: _0x172f71,
+    arg: _0x3efd42
+  } = _0x1ecfb7;
+  if (!_0x3efd42[0]) {
+    _0x172f71("Please insert a song/video name.");
+    return;
+  }
+  try {
+    let _0x55760c = _0x3efd42.join(" ");
+    let _0x3c942e = [];
+    const _0x2734e1 = await yts(_0x55760c);
+    _0x3c942e = _0x2734e1.videos;
+    if (_0x3c942e && _0x3c942e.length > 0) {
+      const _0x592a15 = _0x3c942e[0].url;
+      const _0x1f6f93 = await fetch("https://api-gifted-test-460bb726857c.herokuapp.com/api/download/ytmp3?url=" + encodeURIComponent(_0x3e895a) + "&apikey=" + "gifteddevskk");
+      const _0x30e721 = await _0x1f6f93.json();
+      if (_0x30e721.status === 200 && _0x30e721.success) {
+        const _0x39d02c = _0x30e721.result.download_url;
+        const _0x2b92a1 = {
+          'image': {
+            'url': _0x3c942e[0].thumbnail
+          },
+          'caption': "*MUNGAI YOBIH MEDIA PLAYER*"
+        };
+        await _0x29e56a.sendMessage(_0x6c0729, _0x2b92a1, {
+          'quoted': _0x34d9f2
+        });
+        await _0x29e56a.sendMessage(_0x6c0729, {
+          'video': {
+            'url': _0x39d02c
+          },
+          'mimetype': "video/mp4"
+        }, {
+          'quoted': _0x34d9f2
+        });
+        _0x172f71("*Lol..media successfully downloaded*");
+      } else {
+        _0x172f71("Failed to download the video. Please try again later.");
+      }
+    } else {
+      _0x172f71("No videos found.");
+    }
+  } catch (_0xb66bb) {
+    console.error("Error from API:", _0xb66bb);
+    _0x172f71("An error occurred while searching or downloading the video.");
+  }
+});
