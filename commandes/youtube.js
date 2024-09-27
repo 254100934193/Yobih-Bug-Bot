@@ -1,1 +1,126 @@
-const _0x2a1dea=_0x440b;function _0x2b33(){const _0x1ee255=['Search','join','audio/mp4','success','122VBdxnh','url','Please\x20insert\x20a\x20song/video\x20name.','error','5619470ZbzkOu','result','https://api-gifted-tech.onrender.com/api/download/ytmp3?url=','An\x20error\x20occurred\x20while\x20searching\x20or\x20downloading\x20the\x20audio.','Failed\x20to\x20download\x20audio.\x20Please\x20try\x20again\x20later.','Searching...⏳','1396490OXdinw','&apikey=','video','10655916CjpgGI','length','5444CdPquW','yt-search','status','download_url','Downloded\x20Successfully\x20I\x27M\x20MUNGAI\x20✅','ibrahimtech_ai','videos','../framework/zokou','1149hdlIYl','5085703qwNIQG','thumbnail','No\x20audio\x20found.','Download','17926rnMoMc','6XVFUqe','1579800hdQzIQ','https://api-gifted-tech.onrender.com/api/download/ytmp4?url=','22JWFzWR','song','json','sendMessage','9ZFgYIw','CALL\x20ME\x0a\x0a\x20©MUNGAI\x20YOBIH','video/mp4','Error\x20from\x20API:','No\x20videos\x20found.'];_0x2b33=function(){return _0x1ee255;};return _0x2b33();}(function(_0x1d834b,_0x3bb274){const _0x37d863=_0x440b,_0x38b7a7=_0x1d834b();while(!![]){try{const _0x51d493=-parseInt(_0x37d863(0xcf))/0x1*(-parseInt(_0x37d863(0xe0))/0x2)+parseInt(_0x37d863(0xca))/0x3*(-parseInt(_0x37d863(0xc2))/0x4)+parseInt(_0x37d863(0xe4))/0x5*(parseInt(_0x37d863(0xd0))/0x6)+parseInt(_0x37d863(0xcb))/0x7+parseInt(_0x37d863(0xd1))/0x8*(-parseInt(_0x37d863(0xd7))/0x9)+parseInt(_0x37d863(0xea))/0xa+parseInt(_0x37d863(0xd3))/0xb*(-parseInt(_0x37d863(0xc0))/0xc);if(_0x51d493===_0x3bb274)break;else _0x38b7a7['push'](_0x38b7a7['shift']());}catch(_0xf4284d){_0x38b7a7['push'](_0x38b7a7['shift']());}}}(_0x2b33,0x8fc22));function _0x440b(_0x9d8a17,_0x448d5c){const _0x2b334c=_0x2b33();return _0x440b=function(_0x440b74,_0x4f68f2){_0x440b74=_0x440b74-0xbe;let _0x488760=_0x2b334c[_0x440b74];return _0x488760;},_0x440b(_0x9d8a17,_0x448d5c);}const {zokou}=require(_0x2a1dea(0xc9)),yts=require(_0x2a1dea(0xc3));zokou({'nomCom':_0x2a1dea(0xbf),'categorie':_0x2a1dea(0xdc),'reaction':'🎥'},async(_0x378263,_0x4a1d8d,_0x59f4af)=>{const _0x50deee=_0x2a1dea,{ms:_0x372df1,repondre:_0x39e5f7,arg:_0x311d1f}=_0x59f4af;if(!_0x311d1f[0x0]){_0x39e5f7(_0x50deee(0xe2));return;}try{let _0x339981=_0x311d1f['join']('\x20'),_0x277bf6=[];const _0x39f3a9=await yts(_0x339981);_0x277bf6=_0x39f3a9['videos'];if(_0x277bf6&&_0x277bf6[_0x50deee(0xc1)]>0x0){const _0x4f5867=_0x277bf6[0x0][_0x50deee(0xe1)],_0x4c8e2f=await fetch(_0x50deee(0xd2)+encodeURIComponent(_0x4f5867)+_0x50deee(0xbe)+'ibrahimtech_ai'),_0x9ae1c5=await _0x4c8e2f[_0x50deee(0xd5)]();if(_0x9ae1c5['status']===0xc8&&_0x9ae1c5[_0x50deee(0xdf)]){const _0x14e0b8=_0x9ae1c5['result'][_0x50deee(0xc5)],_0x4e9e71={'image':{'url':_0x277bf6[0x0][_0x50deee(0xcc)]},'caption':_0x50deee(0xd8)};await _0x4a1d8d[_0x50deee(0xd6)](_0x378263,_0x4e9e71,{'quoted':_0x372df1}),await _0x4a1d8d[_0x50deee(0xd6)](_0x378263,{'video':{'url':_0x14e0b8},'mimetype':_0x50deee(0xd9)},{'quoted':_0x372df1}),_0x39e5f7(_0x50deee(0xc6));}else _0x39e5f7('Searching...⏳');}else _0x39e5f7(_0x50deee(0xdb));}catch(_0x5d56ce){console[_0x50deee(0xe3)](_0x50deee(0xda),_0x5d56ce),_0x39e5f7(_0x50deee(0xe9));}}),zokou({'nomCom':'play','categorie':_0x2a1dea(0xce),'reaction':'🎧'},async(_0x5907cc,_0x9b0e3f,_0x533f2)=>{const _0x5e5b37=_0x2a1dea,{ms:_0x848f3d,repondre:_0x2482ca,arg:_0x4723fc}=_0x533f2;if(!_0x4723fc[0x0]){_0x2482ca('Please\x20insert\x20a\x20song\x20name.');return;}try{let _0x5d5f82=_0x4723fc[_0x5e5b37(0xdd)]('\x20'),_0x5769b7=[];const _0x40b93d=await yts(_0x5d5f82);_0x5769b7=_0x40b93d['videos'];if(_0x5769b7&&_0x5769b7['length']>0x0){const _0x4ce76e=_0x5769b7[0x0][_0x5e5b37(0xe1)],_0x7ee3b9=await fetch(_0x5e5b37(0xe6)+encodeURIComponent(_0x4ce76e)+_0x5e5b37(0xbe)+'ibrahimtech_ai'),_0x511182=await _0x7ee3b9['json']();if(_0x511182['status']===0xc8&&_0x511182[_0x5e5b37(0xdf)]){const _0x9b3606=_0x511182[_0x5e5b37(0xe5)][_0x5e5b37(0xc5)],_0x3e42f7={'image':{'url':_0x5769b7[0x0]['thumbnail']},'caption':_0x5e5b37(0xd8)};await _0x9b0e3f['sendMessage'](_0x5907cc,_0x3e42f7,{'quoted':_0x848f3d}),await _0x9b0e3f['sendMessage'](_0x5907cc,{'audio':{'url':_0x9b3606},'mimetype':'audio/mp4'},{'quoted':_0x848f3d}),_0x2482ca('Downloded\x20Successfully\x20I\x27M\x20MUNGAI✅');}else _0x2482ca(_0x5e5b37(0xe8));}else _0x2482ca(_0x5e5b37(0xcd));}catch(_0x3d1771){console[_0x5e5b37(0xe3)](_0x5e5b37(0xda),_0x3d1771),_0x2482ca(_0x5e5b37(0xe7));}}),zokou({'nomCom':_0x2a1dea(0xd4),'categorie':_0x2a1dea(0xce),'reaction':'🎸'},async(_0xcb1366,_0x5f3131,_0x44c589)=>{const _0x28324b=_0x2a1dea,{ms:_0x2a7931,repondre:_0x4826c7,arg:_0x3ec13b}=_0x44c589;if(!_0x3ec13b[0x0]){_0x4826c7('Please\x20insert\x20a\x20song\x20name.');return;}try{let _0x2e1359=_0x3ec13b['join']('\x20'),_0x4b0ccc=[];const _0x423a9b=await yts(_0x2e1359);_0x4b0ccc=_0x423a9b[_0x28324b(0xc8)];if(_0x4b0ccc&&_0x4b0ccc['length']>0x0){const _0x5b2ebb=_0x4b0ccc[0x0]['url'],_0x492ebc=await fetch('https://api-gifted-tech.onrender.com/api/download/ytmp3?url='+encodeURIComponent(_0x5b2ebb)+_0x28324b(0xbe)+_0x28324b(0xc7)),_0x4ffab6=await _0x492ebc[_0x28324b(0xd5)]();if(_0x4ffab6[_0x28324b(0xc4)]===0xc8&&_0x4ffab6[_0x28324b(0xdf)]){const _0x2d9cbe=_0x4ffab6[_0x28324b(0xe5)][_0x28324b(0xc5)],_0x2de7b2={'image':{'url':_0x4b0ccc[0x0]['thumbnail']},'caption':_0x28324b(0xd8)};await _0x5f3131[_0x28324b(0xd6)](_0xcb1366,_0x2de7b2,{'quoted':_0x2a7931}),await _0x5f3131[_0x28324b(0xd6)](_0xcb1366,{'audio':{'url':_0x2d9cbe},'mimetype':_0x28324b(0xde)},{'quoted':_0x2a7931}),_0x4826c7(_0x28324b(0xc6));}else _0x4826c7(_0x28324b(0xe8));}else _0x4826c7(_0x28324b(0xcd));}catch(_0x1a8901){console[_0x28324b(0xe3)](_0x28324b(0xda),_0x1a8901),_0x4826c7(_0x28324b(0xe7));}});
+const {
+  zokou
+} = require("../framework/zokou");
+const yts = require("yt-search");
+const ytdl = require("ytdl-core");
+const fs = require('fs');
+zokou({
+  'nomCom': "song",
+  'categorie': "Search",
+  'reaction': '💿'
+}, async (_0x256ad2, _0x49d33f, _0x37ea75) => {
+  const {
+    ms: _0x444b3f,
+    repondre: _0x4faa16,
+    arg: _0xb0f448
+  } = _0x37ea75;
+  if (!_0xb0f448[0x0]) {
+    _0x4faa16("wich song do you want Stupid niggah since you can't go to YouTube.");
+    return;
+  }
+  try {
+    let _0x5bd8f7 = _0xb0f448.join(" ");
+    const _0x3c11a0 = await yts(_0x5bd8f7);
+    const _0x259e5d = _0x3c11a0.videos;
+    if (_0x259e5d && _0x259e5d.length > 0x0 && _0x259e5d[0x0]) {
+      const _0x2bda68 = _0x259e5d[0x0].url;
+      let _0xbbd656 = {
+        'image': {
+          'url': _0x259e5d[0x0].thumbnail
+        },
+        'caption': "\n*song name :* _" + _0x259e5d[0x0].title + "_\n\n*Time :* _" + _0x259e5d[0x0].timestamp + "_\n\n*Url :* _" + _0x259e5d[0x0].url + "_\n\n\n_*on downloading...*_\n\n"
+      };
+      _0x49d33f.sendMessage(_0x256ad2, _0xbbd656, {
+        'quoted': _0x444b3f
+      });
+      const _0x3a89b8 = ytdl(_0x2bda68, {
+        'filter': "audioonly",
+        'quality': "highestaudio"
+      });
+      const _0x39a32b = fs.createWriteStream("audio.mp3");
+      _0x3a89b8.pipe(_0x39a32b);
+      _0x39a32b.on("finish", () => {
+        _0x49d33f.sendMessage(_0x256ad2, {
+          'audio': {
+            'url': "audio.mp3"
+          },
+          'mimetype': "audio/mp4"
+        }, {
+          'quoted': _0x444b3f,
+          'ptt': false
+        });
+        console.log("Envoi du fichier audio terminé !");
+      });
+      _0x39a32b.on('error', _0x3c4fc3 => {
+        console.error("Erreur lors de l'écriture du fichier audio :", _0x3c4fc3);
+        _0x4faa16("Une erreur est survenue lors de l'écriture du fichier audio.");
+      });
+    } else {
+      _0x4faa16("Aucune vidéo trouvée.");
+    }
+  } catch (_0x40ca6c) {
+    console.error("Erreur lors de la recherche ou du téléchargement de la vidéo :", _0x40ca6c);
+    _0x4faa16("Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.");
+  }
+});
+zokou({
+  'nomCom': "video",
+  'categorie': 'Search',
+  'reaction': '🎥'
+}, async (_0x5e6c6d, _0x53021f, _0x1a7c98) => {
+  const {
+    arg: _0x55daa9,
+    ms: _0x9969f9,
+    repondre: _0x4c90ff
+  } = _0x1a7c98;
+  if (!_0x55daa9[0x0]) {
+    _0x4c90ff("insert video name");
+    return;
+  }
+  const _0x497390 = _0x55daa9.join(" ");
+  try {
+    const _0x58de07 = await yts(_0x497390);
+    const _0x5d8cc4 = _0x58de07.videos;
+    if (_0x5d8cc4 && _0x5d8cc4.length > 0x0 && _0x5d8cc4[0x0]) {
+      const _0x2acec1 = _0x5d8cc4[0x0];
+      let _0x54a83c = {
+        'image': {
+          'url': _0x5d8cc4[0x0].thumbnail
+        },
+        'caption': "*Video name :* _" + _0x2acec1.title + "_\n*Time :* _" + _0x2acec1.timestamp + "_\n*Url :* _" + _0x2acec1.url + "_\n_*On downloading...*_\n\n"
+      };
+      _0x53021f.sendMessage(_0x5e6c6d, _0x54a83c, {
+        'quoted': _0x9969f9
+      });
+      const _0x3c14fd = await ytdl.getInfo(_0x2acec1.url);
+      const _0x419583 = ytdl.chooseFormat(_0x3c14fd.formats, {
+        'quality': '18'
+      });
+      const _0x1b4883 = ytdl.downloadFromInfo(_0x3c14fd, {
+        'format': _0x419583
+      });
+      const _0x30adf5 = fs.createWriteStream("video.mp4");
+      _0x1b4883.pipe(_0x30adf5);
+      _0x30adf5.on("finish", () => {
+        _0x53021f.sendMessage(_0x5e6c6d, {
+          'video': {
+            'url': './video.mp4'
+          },
+          'caption': "*Zokou-Md",
+          'gifPlayback': false
+        }, {
+          'quoted': _0x9969f9
+        });
+      });
+      _0x30adf5.on('error', _0x423803 => {
+        console.error("Erreur lors de l'écriture du fichier vidéo :", _0x423803);
+        _0x4c90ff("Une erreur est survenue lors de l'écriture du fichier vidéo.");
+      });
+    } else {
+      _0x4c90ff("No video found");
+    }
+  } catch (_0x36d625) {
+    console.error("Erreur lors de la recherche ou du téléchargement de la vidéo :", _0x36d625);
+    _0x4c90ff("Une erreur est survenue lors de la recherche ou du téléchargement de la vidéo.");
+  }
+});
