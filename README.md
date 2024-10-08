@@ -22,8 +22,10 @@
   **MUNGAI WISHES TO THANKS YOU'LL FOR YOUR SUPPORT*
 
  
-## Deployment Methods![yobih md bug bot](https://github.com/user-attachments/assets/1dcd1876-3710-4ad8-8a2c-97f7d6df26ba)  
+## Deployment Methods!
 
+
+![red_devil_face_vector_logo](https://github.com/user-attachments/assets/60e10870-0799-49bc-8bae-1a89f0e7d6c4)
 
 ---
 1. ***Get [`SESSION ID`](https://yobih-bot-session.onrender.com/)  `Whatapp>Three dots>Linked Devices`***
