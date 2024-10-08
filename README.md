@@ -38,7 +38,7 @@
    
 ### SERVER 1 ( replit ) 
 
-<a href="https://replit.com/@mungaibrian36/david-session"><img src="https://img.shields.io/badge/PAIR_CODE-orange" alt="Click Here to Get Pair-Code" width="90"></a>
+<a href="https://replit.com/@mungaibrian36/mungai-session-id-generator"><img src="https://img.shields.io/badge/PAIR_CODE-orange" alt="Click Here to Get Pair-Code" width="90"></a>
 
 ***
 
