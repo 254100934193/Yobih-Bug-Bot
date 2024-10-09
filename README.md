@@ -19,7 +19,7 @@
 
   **PLEASE FORK MY REPO AND GIVE A STAR FOR COURAGE**
 
-  **MUNGAI WISHES TO THANKS YOU'LL FOR YOUR SUPPORT*
+  **MUNGAI WISHES TO THANKS YOU'LL FOR YOUR SUPPORT**
 
  
 ## Deployment Methods!
@@ -28,13 +28,13 @@
 ![red_devil_face_vector_logo](https://github.com/user-attachments/assets/60e10870-0799-49bc-8bae-1a89f0e7d6c4)
 
 ---
-1. ***Get [`SESSION ID`](https://yobih-bot-session.onrender.com/)  `Whatapp>Three dots>Linked Devices`***
+1. ***Get [`SESSION ID`](https://yobih9029.onrender.com/)  `Whatapp>Three dots>Linked Devices`***
 2.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
 3.  ***Click [`FORK`](https://github.com/254100934193/Yobih-Bug-Bot/fork)*** Must Fork This REPO before deployment
 
 ### PAIR CODE {RECOMMENDED AND EASIEST}
 
-<a href="https://yobih-bot-session.onrender.com/"><img src="https://img.shields.io/badge/PAIR CODE-green" alt="Click Here to Get Pair-Code" width="110"></a>   
+<a href="https://yobih9029.onrender.com/"><img src="https://img.shields.io/badge/PAIR CODE-green" alt="Click Here to Get Pair-Code" width="110"></a>   
    
 ### SERVER 1 ( replit ) 
 
