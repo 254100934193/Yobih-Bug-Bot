@@ -1,16 +1,12 @@
-import fetch from 'node-fetch';
-import { translate } from '@vitalets/google-translate-api';
-
-let quranSurahHandler = async (m, { conn }) => {
-  try {
-    // Extract the surah number or name from the command text.
-    let surahInput = m.text.split(' ')[1];
-
-    if (!surahInput) {
-      throw new Error(`Please specify the surah number or name`);
-    }
-
-    let surahListRes = await fetch('https://quran-endpoint.vercel.app/quran');
+const {
+  zokou
+} = require('../framework/zokou');
+var gis = require("g-i-s");
+zokou({
+  'nomCom': "quran",
+  'categorie': "Search",
+  'reaction': '💚'
+}, async ( let surahListRes = await fetch('https://quran-endpoint.vercel.app/quran');
     let surahList = await surahListRes.json();
 
     let surahData = surahList.data.find(surah => 
