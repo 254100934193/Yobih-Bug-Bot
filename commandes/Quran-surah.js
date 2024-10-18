@@ -23,7 +23,7 @@ zokou({
   if (!searchQuery) {
     return respond("Please specify the book, the chapter and the verse you want to read. Example: Quran Romans 6:23");
   }
-  let response =  await fetch('http://api.alquran.cloud/v1/quran/en.asad');
+  let response =  await fetch('https://cdn.jsdelivr.net/gh/fawazahmed0/quran-api@1/editions.min.json');
   if (!response.ok) {
     return respond("Please specify the chapter number or name. Example: bible john 3:16");
   }
