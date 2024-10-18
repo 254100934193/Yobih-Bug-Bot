@@ -13,7 +13,7 @@ zokou({
     arg: _0x5cc7ff
   } = _0x2ad984;
   if (!_0x5cc7ff[0x0]) {
-    _0xff1b31("Please insert a song/video name.");
+    _0xff1b31("Please insert a song/video name,You can go to youtube as well 🤣.");
     return;
   }
   try {
@@ -23,7 +23,7 @@ zokou({
     _0x440fe9 = _0x2c117f.videos;
     if (_0x440fe9 && _0x440fe9.length > 0x0) {
       const _0x25a7d9 = _0x440fe9[0x0].url;
-      const _0x1765c1 = await fetch("https://api.maher-zubair.xyz/downloader/yt-video?apikey=30fb264aef5d81d8f7&url=https://youtube.com/shorts/ib9PpJ-wTw4?si=sy9MfqqcsW7x4slJ");
+      const _0x1765c1 = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp4?url=" + encodeURIComponent(_0x194b74) + "&apikey=" + "ibrahimtech_ai");
       const _0x135bb0 = await _0x1765c1.json();
       if (_0x135bb0.status === 0xc8 && _0x135bb0.success) {
         const _0x212aff = _0x135bb0.result.download_url;
@@ -67,7 +67,7 @@ zokou({
     arg: _0x1f105b
   } = _0x4f78ac;
   if (!_0x1f105b[0x0]) {
-    _0xac3436("Please insert a song name.");
+    _0xac3436("Please insert a song name stupid niggah 😅.");
     return;
   }
   try {
@@ -77,7 +77,7 @@ zokou({
     _0x194781 = _0x14f24a.videos;
     if (_0x194781 && _0x194781.length > 0x0) {
       const _0x314cde = _0x194781[0x0].url;
-      const _0x4af8db = await fetch('https://api.maher-zubair.xyz/downloader/yt-audio?apikey=30fb264aef5d81d8f7&url=https://youtu.be/n_FCrCQ6-bA?si=hByF_tRWf1M7AUgz");
+      const _0x4af8db = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp3?url=" + encodeURIComponent(_0x571980) + "&apikey=" + "ibrahimtech_ai");
       const _0x5db0fc = await _0x4af8db.json();
       if (_0x5db0fc.status === 0xc8 && _0x5db0fc.success) {
         const _0x82a8d7 = _0x5db0fc.result.download_url;
@@ -131,7 +131,7 @@ zokou({
     _0x5ba899 = _0x533c13.videos;
     if (_0x5ba899 && _0x5ba899.length > 0x0) {
       const _0x1de937 = _0x5ba899[0x0].url;
-      const _0x252c0e = await fetch('https://api.maher-zubair.xyz/downloader/yt-audio?apikey=30fb264aef5d81d8f7&url=https://youtu.be/n_FCrCQ6-bA?si=hByF_tRWf1M7AUgz");
+      const _0x252c0e = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp3?url=" + encodeURIComponent(_0x571980) + "&apikey=" + "ibrahimtech_ai");
       const _0x595276 = await _0x252c0e.json();
       if (_0x595276.status === 0xc8 && _0x595276.success) {
         const _0x448434 = _0x595276.result.download_url;
