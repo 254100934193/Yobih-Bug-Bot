@@ -107,7 +107,7 @@ zokou({
     }
   } catch (_0x406d35) {
     console.error("Error from API:", _0x406d35);
-    _0xac3436("An error occurred while searching or downloading the audio, Be cool Mungai isa fixing.");
+    _0xac3436("An error occurred while searching or downloading the audio, Be cool Mungai is fixing.");
   }
 });
 zokou({
