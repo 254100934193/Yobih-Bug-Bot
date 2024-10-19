@@ -1,26 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const axios = require("axios");
 const {
   zokou
 } = require("../framework/zokou");
@@ -28,22 +6,41 @@ zokou({
   'nomCom': "weather",
   'reaction': "🌡️",
   'categorie': "Search"
-}, 
-    async (_0x626df9, _0x17e5bb, _0x37baf6) => {
-  const _0x445647 = _0x1180fa.join(" ");
-  if (!_0x445647) {
-    return _0xecdf09("Give me location...");
+}, async (_0x50a87c, _0x307848, _0xba2376) => {
+  const {
+    repondre: _0x1330dc,
+    arg: _0x29d915,
+    ms: _0x2ebb50
+  } = _0xba2376;
+  const _0x314b39 = _0x29d915.join(" ");
+  if (!_0x314b39) {
+    return _0x1330dc("Give me location...");
   }
-  const _0x470189 = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + _0x445647 + "&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en");
-  const _0x4bfc6 = await _0x470189.json();
-  const _0x3cf19a = _0x4bfc6.name;
-  const _0x52e997 = _0x4bfc6.main.temp;
-  const _0x32180e = _0x4bfc6.weather[0x0].description;
-  const _0x2da493 = _0x4bfc6.main.humidity;
-  const _0x368581 = _0x4bfc6.wind.speed;
-  const _0x28a97c = _0x4bfc6.rain ? _0x4bfc6.rain['1h'] : 0x0;
-  const _0x39a4af = _0x4bfc6.clouds.all;
-  const _0x41b2f8 = new Date(_0x4bfc6.sys.sunrise * 0x3e8);
-  const _0x4393a0 = new Date(_0x4bfc6.sys.sunset * 0x3e8);
-  await _0xecdf09(" *Cyberion-V1 WEATHER UPDATES* \n\n❄️ Weather in " + _0x3cf19a + "\n\n🌡️ *Temperature:* " + _0x52e997 + "°C\n📝 *Description:* " + _0x32180e + "\n❄️ *Humidity:* " + _0x2da493 + "%\n🌀 *Wind Speed:* " + _0x368581 + " m/s\n🌧️ *Rain Volume (last hour):* " + _0x28a97c + " mm\n☁️ *Cloudiness:* " + _0x39a4af + "%\n🌄 *Sunrise:* " + _0x41b2f8.toLocaleTimeString() + "\n🌅 *Sunset:* " + _0x4393a0.toLocaleTimeString() + "\n🌫️ *Latitude:* " + _0x4bfc6.coord.lat + "\n🌪️ *Longitude:* " + _0x4bfc6.coord.lon + "\n\n🗺 *Country:* " + _0x4bfc6.sys.country + "\n\n\n*°Powered by BELTAH-MD*");
+  try {
+    const _0xdf4c94 = await axios.get("https://api.openweathermap.org/data/2.5/weather", {
+      'params': {
+        'q': _0x314b39,
+        'units': "metric",
+        'appid': "060a6bcfa19809c2cd4d97a212b19273",
+        'language': 'en'
+      }
+    });
+    const _0x117dd8 = _0xdf4c94.data;
+    const _0x27e01f = _0x117dd8.name;
+    const _0x30fbdf = _0x117dd8.main.temp;
+    const _0x300a6b = _0x117dd8.main.feels_like;
+    const _0x148686 = _0x117dd8.main.temp_min;
+    const _0x5b64cf = _0x117dd8.main.temp_max;
+    const _0x3949ce = _0x117dd8.weather[0].description;
+    const _0x5f7b48 = _0x117dd8.main.humidity;
+    const _0x597e97 = _0x117dd8.wind.speed;
+    const _0x31b3fa = _0x117dd8.rain ? _0x117dd8.rain['1h'] : 0;
+    const _0x1c1c03 = _0x117dd8.clouds.all;
+    const _0x3e5533 = new Date(_0x117dd8.sys.sunrise * 1000);
+    const _0x1c8510 = new Date(_0x117dd8.sys.sunset * 1000);
+    await _0x1330dc("❄️ Weather in " + _0x27e01f + "\n\n🌡️ Temperature: " + _0x30fbdf + "°C\n🌡️ Feels Like: " + _0x300a6b + "°C\n🌡️ Min Temperature: " + _0x148686 + "°C\n🌡️ Max Temperature: " + _0x5b64cf + "°C\n📝 Description: " + _0x3949ce + "\n❄️ Humidity: " + _0x5f7b48 + "%\n🌀 Wind Speed: " + _0x597e97 + " m/s\n🌧️ Rain Volume (last hour): " + _0x31b3fa + " mm\n☁️ Cloudiness: " + _0x1c1c03 + "%\n🌄 Sunrise: " + _0x3e5533.toLocaleTimeString() + "\n🌅 Sunset: " + _0x1c8510.toLocaleTimeString() + "\n🌫️ Latitude: " + _0x117dd8.coord.lat + "\n🌪️ Longitude: " + _0x117dd8.coord.lon + "\n\n🗺 Country: " + _0x117dd8.sys.country + "\n\n*°Powered by Mungai Yobih*");
+  } catch (_0xa326ac) {
+    console.error("Error fetching weather data:", _0xa326ac);
+    await _0x1330dc("An error occurred while fetching the weather data. Please try again.");
+  }
 });
