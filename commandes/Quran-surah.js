@@ -1,67 +1,36 @@
 const {
   zokou
-} = require('../framework/zokou');
-var gis = require("g-i-s");
-zokou({
-  'nomCom': "quran",
-  'categorie': "Search",
-  'reaction': '💚'
-}, async ( let surahListRes = await fetch('https://quran-endpoint.vercel.app/quran');
-    let surahList = await surahListRes.json();
-
-    let surahData = surahList.data.find(surah => 
-        surah.number === Number(surahInput) || 
-        surah.asma.ar.short.toLowerCase() === surahInput.toLowerCase() || 
-        surah.asma.en.short.toLowerCase() === surahInput.toLowerCase()
-    );
-
-    if (!surahData) {
-      throw new Error(`Couldn't find surah with number or name "${surahInput}"`);
+} = require("../framework/zokou");
+const {
+  attribuerUnevaleur
+} = require("../bdd/welcome");
+async function events(_0xd68e6c) {
+  zokou({
+    'nomCom': _0xd68e6c,
+    'categorie': "Group"
+  }, async (_0x34d9a2, _0x124fd, _0x29061d) => {
+    const {
+      ms: _0x446690,
+      arg: _0x1104f3,
+      repondre: _0x2b8724,
+      superUser: _0x24565c,
+      verifAdmin: _0x4b8556
+    } = _0x29061d;
+    if (_0x4b8556 || _0x24565c) {
+      if (!_0x1104f3[0] || _0x1104f3.join(" ") === " ") {
+        _0x2b8724(_0xd68e6c + " " + " on to active and " + " " + _0xd68e6c + " " + "off to put off");
+      } else if (_0x1104f3[0] === 'on' || _0x1104f3[0] === "off") {
+        await attribuerUnevaleur(_0x34d9a2, _0xd68e6c, _0x1104f3[0]);
+        _0x2b8724(_0xd68e6c + "is actualised on " + _0x1104f3[0]);
+      } else {
+        _0x2b8724("on for active and off for desactive");
+      }
+    } else {
+      _0x2b8724("You can't use this command lol 😂😂 ");
     }
-
-    let res = await fetch(`https://quran-endpoint.vercel.app/quran/${surahData.number}`);
-    
-    if (!res.ok) {
-      let error = await res.json(); 
-      throw new Error(`API request failed with status ${res.status} and message ${error.message}`);
-    }
-
-    let json = await res.json();
-
-    // Translate tafsir from Bahasa Indonesia to Urdu
-    let translatedTafsirUrdu = await translate(json.data.tafsir.id, { to: 'ur', autoCorrect: true });
-
-    // Translate tafsir from Bahasa Indonesia to English
-    let translatedTafsirEnglish = await translate(json.data.tafsir.id, { to: 'en', autoCorrect: true });
-
-    let quranSurah = `
-🕌 *Quran: The Holy Book*\n
-📜 *Surah ${json.data.number}: ${json.data.asma.ar.long} (${json.data.asma.en.long})*\n
-Type: ${json.data.type.en}\n
-Number of verses: ${json.data.ayahCount}\n
-🔮 *Explanation (Urdu):*\n
-${translatedTafsirUrdu.text}\n
-🔮 *Explanation (English):*\n
-${translatedTafsirEnglish.text}`;
-
-    m.reply(quranSurah);
-
-    if (json.data.recitation.full) {
-      conn.sendFile(m.chat, json.data.recitation.full, 'recitation.mp3', null, m, true, { type: 'audioMessage', ptt: true });
-    }
-  } catch (error) {
-    console.error(error);
-    m.reply(`Error: ${error.message}`);
-  }
-};
-
-quranSurahHandler.help = ['quran [surah_number|surah_name]'];
-quranSurahHandler.tags = ['quran', 'surah'];
-quranSurahHandler.command = ['quran', 'surah']
-
-export default quranSurahHandler;
-
-  
-  
-  
-  
+  });
+}
+events("welcome");
+events("goodbye");
+events("antipromote");
+events("antidemote");
