@@ -22,7 +22,7 @@ zokou({
     const _0x5b52a6 = await yts(_0x3b65a7);
     _0x23da4f = _0x5b52a6.videos;
     if (_0x23da4f && _0x23da4f.length > 0x0) {
-      const _0x4100df = await fetch("https://api-gifted-tech.onrender.com/api/download/ytmp4?url=" + encodeURIComponent(_0x194b74) + "&apikey=" + 'ibrahimtech_ai');
+      const _0x4100df = await fetch("https://api.giftedtech.us.kg/api/download/ytmp4v2?url=" + encodeURIComponent(_0x34cf71) + "&apikey=" + "gifted');
       const _0x8083c0 = await _0x4100df.json();
       if (_0x8083c0.status === 0xc8 && _0x8083c0.success) {
         const _0x1316a3 = _0x8083c0.result.download_url;
@@ -75,7 +75,7 @@ zokou({
     const _0x4d116c = await yts(_0x6f9dbe);
     _0x346271 = _0x4d116c.videos;
     if (_0x346271 && _0x346271.length > 0x0) {
-      const _0x57c0e7 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=${encodeURIComponent(%27https://api.giftedtech.us.kg/api/download/yt-audio?url=https://youtu.be/qHDJSRlNhVs?feature=shared&apikey=gifted%27)}&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
+      const _0x57c0e7 = await fetch("https://api.giftedtech.us.kg/api/download/ytmp3v2?url=" + encodeURIComponent(_0x48a9af) + "&apikey=" + "gifted");
       const _0x142df5 = await _0x57c0e7.json();
       if (_0x142df5.status === 0xc8 && _0x142df5.success) {
         const _0x235e52 = _0x142df5.result.download_url;
@@ -128,7 +128,7 @@ zokou({
     const _0x15e221 = await yts(_0x54f10c);
     _0x18d954 = _0x15e221.videos;
     if (_0x18d954 && _0x18d954.length > 0x0) {
-      const _0x316929 = await fetch("https://ab.cococococ.com/ajax/download.php?copyright=0&format=mp3&url=${encodeURIComponent(%27https://api.giftedtech.us.kg/api/download/yt-audio?url=https://youtu.be/qHDJSRlNhVs?feature=shared&apikey=gifted%27)}&api=dfcb6d76f2f6a9894gjkege8a4ab232222");
+      const _0x316929 = await fetch("https://api.giftedtech.us.kg/api/download/ytmp3v2?url=" + encodeURIComponent(_0x48a9af) + "&apikey=" + "gifted");
       const _0x3666e0 = await _0x316929.json();
       if (_0x3666e0.status === 0xc8 && _0x3666e0.success) {
         const _0x1c2944 = _0x3666e0.result.download_url;
