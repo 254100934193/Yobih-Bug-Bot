@@ -22,7 +22,7 @@ zokou({
     const _0x5b52a6 = await yts(_0x3b65a7);
     _0x23da4f = _0x5b52a6.videos;
     if (_0x23da4f && _0x23da4f.length > 0x0) {
-      const _0x4100df = await fetch("https://api.giftedtech.us.kg/api/download/ytmp4v2?url=" + encodeURIComponent(_0x34cf71) + "&apikey=" + "gifted');
+      const _0x4100df = await fetch("https://api.giftedtech.us.kg/api/download/ytmp4v2?url=" + encodeURIComponent(_0x34cf71) + "&apikey=" + "gifted");
       const _0x8083c0 = await _0x4100df.json();
       if (_0x8083c0.status === 0xc8 && _0x8083c0.success) {
         const _0x1316a3 = _0x8083c0.result.download_url;
