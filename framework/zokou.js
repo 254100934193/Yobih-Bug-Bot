@@ -14,3 +14,4 @@ function zokou(obj, fonctions) {
     return infoComs;
 }
 module.exports = { zokou, Module: zokou, cm };
+,
