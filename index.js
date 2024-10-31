@@ -664,14 +664,14 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/cc5fd0e19ae11164bd813.jpg';
+        ppgroup = 'https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `◇CARLTECH◇
+            let msg = `◇MUNGAI YOBIH◇
 `;
              
             let membres = group.participants;
@@ -681,7 +681,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `*You are welcomed here.* 
             
-*You MAY read the group description FOR more info and Avoid getting removed*
+*You MAY read the group description FOR more info and Avoid getting removed, you're welcomed here*
             
      
             
