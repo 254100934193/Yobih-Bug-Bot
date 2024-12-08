@@ -1,1 +1,22 @@
-'use strict';const _0x132f8c=_0x48fe;(function(_0x589e5a,_0x496e8d){const _0x3c911e=_0x48fe,_0x36454c=_0x589e5a();while(!![]){try{const _0x38f3ed=parseInt(_0x3c911e(0x1e4))/0x1+-parseInt(_0x3c911e(0x1eb))/0x2*(parseInt(_0x3c911e(0x1e3))/0x3)+parseInt(_0x3c911e(0x1e9))/0x4+parseInt(_0x3c911e(0x1dc))/0x5*(parseInt(_0x3c911e(0x1e8))/0x6)+-parseInt(_0x3c911e(0x1ea))/0x7+parseInt(_0x3c911e(0x1df))/0x8*(-parseInt(_0x3c911e(0x1de))/0x9)+-parseInt(_0x3c911e(0x1ec))/0xa;if(_0x38f3ed===_0x496e8d)break;else _0x36454c['push'](_0x36454c['shift']());}catch(_0x1b6c0a){_0x36454c['push'](_0x36454c['shift']());}}}(_0x2b97,0x20b06));Object['defineProperty'](exports,_0x132f8c(0x1e7),{'value':!![]});function _0x2b97(){const _0x2fe7bb=['sendMessage','../framework/zokou','mon\x20test','375204hkdsmv','184860HQZdIp','log','repo','__esModule','102732CvCfKg','1041268ZScttz','1271018WkHImV','2ArUBsE','1369930phRqSD','𝗧𝗛𝗘💻𝗔𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦🗿YOBIH\x20BUG\x20BOT\x20𝗕𝗬\x20MUNGAI😎\x20\x20\x0a\x0a\x20','50vBohke','NO\x20ROOM\x20FOR\x20CLONERS\x20MY\x20REPO\x20IS\x20PRIVATE\x20IM\x20YOBIH\x20BUG\x20BOT\x20NIGGAH,HAHAHA\x20GERRA\x20OUT\x20OF\x20HERE','4428LDRVKj','632qxscky'];_0x2b97=function(){return _0x2fe7bb;};return _0x2b97();}const {zokou}=require(_0x132f8c(0x1e1));function _0x48fe(_0x25c74c,_0x1ce397){const _0x2b979d=_0x2b97();return _0x48fe=function(_0x48fe95,_0x1a5975){_0x48fe95=_0x48fe95-0x1dc;let _0x4422db=_0x2b979d[_0x48fe95];return _0x4422db;},_0x48fe(_0x25c74c,_0x1ce397);}zokou({'nomCom':_0x132f8c(0x1e6),'reaction':'🥴','nomFichier':__filename},async(_0x3de3f0,_0x1d6117,_0x5f48b7)=>{const _0x31c335=_0x132f8c;console['log']('Commande\x20saisie\x20!!!s');let _0x1421af=_0x31c335(0x1ed)+'𝗙𝗢𝗥𝗞🍽\x20𝗧𝗛𝗘\x20𝗥𝗘𝗣𝗢\x20𝗧𝗢\x20𝗗𝗘𝗣𝗟𝗢𝗬\x20𝗬𝗢𝗨𝗥☠️\x20𝗢𝗪𝗡\x20👾𝗕𝗢𝗧\x20*YOBIH_MD\x20𝗥𝗘𝗣𝗢',_0x1b30bf=_0x31c335(0x1dd),_0x141d0b=_0x1421af+_0x1b30bf;var _0x292bc0='https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg';await _0x1d6117[_0x31c335(0x1e0)](_0x3de3f0,{'image':{'url':_0x292bc0},'caption':_0x141d0b});}),console[_0x132f8c(0x1e5)](_0x132f8c(0x1e2));
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  'value': true
+});
+const {
+  zokou
+} = require("../framework/zokou");
+zokou({
+  'nomCom': "repo",
+  'reaction': '🥰',
+  'nomFichier': __filename
+}, async (_0x3de3f0, _0x1d6117, _0x5f48b7) => {
+  console.log("Commande saisie !!!s");
+  await _0x1d6117.sendMessage(_0x3de3f0, {
+    'image': {
+      'url': 'https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg'
+    },
+    'caption': "https://github.com/254100934193/Yobih-Bug-Bot"
+  });
+});
+console.log("mon test");
