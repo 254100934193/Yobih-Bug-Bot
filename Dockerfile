@@ -1,4 +1,3 @@
-
 FROM node:lts-buster
 
 RUN apt-get update && \
@@ -10,16 +9,16 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Keithkeizzah/ALPHA-MD1 /root/alpha_Bot
-WORKDIR /root/alpha_Bot/
+RUN git clone https://github.com/Luffy2ndAccount/Zokou-english-v  /root/Zokou_BOt
+WORKDIR /root/Zokou_Bot/
 
 
 COPY package.json .
 RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
+RUN npm install
 
 COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "alpha"]
+CMD ["npm", "run" , "web"]
