@@ -3,4 +3,6 @@ build:
   docker:
       worker: Dockerfile
 run:
-   worker:   npm run yobih
+   worker:   npm run toshtech
+   
+   
