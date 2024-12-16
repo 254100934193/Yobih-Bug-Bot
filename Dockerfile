@@ -1,5 +1,4 @@
 
-
 FROM node:lts-buster
 
 RUN apt-get update && \
@@ -11,8 +10,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https:// https://github.com/254100934193/Yobih-Bug-Bot/root/yobih_bot
-WORKDIR /root/yobih_Bot/
+RUN git clone https://github.com/Keithkeizzah/ALPHA-MD1 /root/alpha_Bot
+WORKDIR /root/alpha_Bot/
 
 
 COPY package.json .
@@ -23,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "yobih"]
+CMD ["npm", "run" , "alpha"]
