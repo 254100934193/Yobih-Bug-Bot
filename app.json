@@ -15347,6 +15347,12 @@
     "required": false,
     "value": "3"
   },
+ "AUTO_REACT":
+{
+  "description": "if this feature is activated,all received messages will automatically be reacted on..;type yes to activate,else no(use small letters)",
+  "required": false,
+  "value": "no"
+},	
   "STARTING_BOT_MESSAGE":
   {
     "description": "if you don't want startting-bot-message put no else put yes",
