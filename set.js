@@ -7,10 +7,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'yobih',
+module.exports = { session: process.env.SESSION_ID || 'keith',
     PREFIXE: process.env.PREFIX || "+",
     GITHUB : process.env.GITHUB|| 'https://github.com/254100934193/Yobih-Bug-Bot',
-    OWNER_NAME : process.env.OWNER_NAME || "yobih",
+    OWNER_NAME : process.env.OWNER_NAME || "keith",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "254743436105",  
     ANTILINK : process.env.ANTILINK || "yes",
     ANTI_VV : process.env.ANTI_VV || "yes",               
