@@ -1,7 +1,0 @@
-.env
-/auth
-/set.env
-/package-lock.json
-/node_modules
-/store.json
-/audio.mp3
