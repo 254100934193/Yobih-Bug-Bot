@@ -663,7 +663,7 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/cc5fd0e19ae11164bd813.jpg';
+        ppgroup = 'https://telegra.ph/file/d0cd3c82fbbc120f38ac4.jpg';
     }
 
     try {
@@ -680,7 +680,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
             msg += `*You are welcomed here.* 
             
-*You MAY read the group description FOR more info and Avoid getting removed*
+*You MAY read the group description FOR more info and Avoid getting removed,,,I'm Sir Mungai Yobih,Your LORD*
             
      
             
