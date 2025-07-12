@@ -1,3 +1,5 @@
+
+
 var tabCmds = [];
 let cm = [];
 function zokou(obj, fonctions) {
