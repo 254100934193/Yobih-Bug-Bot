@@ -86,7 +86,7 @@
     },
     "OWNER_NAME": {
       "description": "Owner name",
-      "value": "Ibrahim Adams",
+      "value": "MUNGAI YOBIH",
       "required": false
     },
     "SESSION_ID": {
@@ -152,7 +152,7 @@
     },
     
   {
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+    "url":"https://github.com/heroku/heroku-buildpack-chrome-for-testing"
   }
     
   ]
