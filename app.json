@@ -1,79 +1,154 @@
+
+
 {
-  "name": "mungai-MD",
-  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
-  "keywords": [
-    "bot",
-    "node",
-    "baileys",
-    "whatsapp"
-  ],
-  "logo": "https://files.catbox.moe/4h8lfw.jpg",
-  "repository": "https://github.com/254100934193/Yobih-Bug-Bot",
+  "name": "Yobih bug bot",
+  "description": "Best WhatsApp bot developed by mungai yobih",
+  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "logo": "https://files.catbox.moe/2kcb4s.jpeg",
+  "repository": "https://github.com/ekitale/maths-project",
   "success_url": "/",
-  "stack": "container",
+  "stack": "heroku-24",
   "env": {
     "PREFIX": {
-      "description": "Choose your bot's prefix",
+      "description": "Choose your prefix for your bot",
       "value": ".",
       "required": true
     },
-      "ANTI_DELETE_MESSAGE": {
-      "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
+    "AUTO_REJECT_CALL": {
+      "description": "Enter yes for your bot to auto reject calls",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_BIO": {
+      "description": "Enter yes for your bot to auto update bio",
       "value": "yes",
       "required": false
     },
-    
-    "ANTICALL_MSG": {
-      "description": "Type your anticall message to always send when calls are declined. You can leave it blank",
-      "value": "This is Keith personal assistant kindly leave a message",
+    "AUTO_READ_STATUS": {
+      "description": "Your status will be read automatically (type yes to activate or no to deactivate)",
+      "value": "yes",
+      "required": false
+    },
+    "AUTO_DOWNLOAD_STATUS": {
+      "description": "Status will be sent to your inbox automatically (type yes to activate or no to deactivate)",
+      "value": "no",
+      "required": false
+    },
+    "AUTO_READ": {
+      "description": "Messages will be marked as read automatically (type yes to activate or no to deactivate)",
+      "value": "no",
       "required": false
     },
     "BOT_NAME": {
-      "description": "You must give a name for your bot",
-      "value": "",
+      "description": "Name for your bot",
+      "value": "Yobih bug bot",
       "required": false
     },
-    "TIMEZONE": {
-      "description": "Set your bot timezone",
-      "value": "Africa/Nairobi",
+    "BOT_IMAGE": {
+      "description": "Image URL for your bot menu",
+      "value": "https://files.catbox.moe/h2ydge.jpg",
       "required": false
     },
     "PUBLIC_MODE": {
-      "description": "Set 'yes' to make your bot public or 'no' to keep it private",
+      "description": "Type yes for public mode or no for private mode",
       "value": "yes",
       "required": false
     },
-    "SESSION_ID": {
-      "description": "Enter your session ID, the code you receive after scanning the QR code",
-      "value": "",
-      "required": true
-    },
-    "OWNER_NAME": {
-      "description": "Insert your name here",
+    "HEROKU_API_KEY": {
+      "description": "Enter your Heroku API key to be able to control your vars",
       "value": "",
       "required": false
     },
-    "URL": {
-      "description": "You must add your bot image URL",
-      "value": "https://files.catbox.moe/4h8lfw.jpg",
-      "required": false
+    "HEROKU_APP_NAME": {
+      "description": "Enter your Heroku app name to be able to control vars",
+      "value": "",
+      "required": true 
     },
     "OWNER_NUMBER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
+      "description": "Enter your number eg, 2547xxxxxxx",
       "value": "",
+      "required": true 
+    },
+   "STATUS_REACT_EMOJIS": {
+      "description": "Enter your auto like status emojis",
+      "value": "🚀,🌎",
+      "required": false 
+    },
+    "AUTO_REACT": {
+      "description": "Enter your auto react messages",
+      "value": "no",
+      "required": false 
+    },
+   "AUTO_REACT_STATUS": {
+      "description": "Enter yes for your bot to auto like status",
+      "value": "yes",
+      "required": false 
+    },
+    "OWNER_NAME": {
+      "description": "Owner name",
+      "value": "Ibrahim Adams",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Your session ID",
+      "value": "",
+      "required": true
+    },    
+    "STARTING_BOT_MESSAGE": {
+      "description": "Enable starting message (yes/no)",
+      "value": "yes",
+      "required": true
+    },
+    "PRESENCE": {
+      "description": "Presence mode: 1=online, 2=typing, 3=recording",
+      "value": "",
+      "required": false
+    },
+    "ANTIDELETE_SENT_INBOX": {
+      "description": "Enable anti-delete to be sent inbox (yes/no)",
+      "value": "yes",
+      "required": false
+    },
+   "ANTIDELETE_RECOVER_CONVENTION": {
+      "description": "Enable anti-delete deleted to recover in conversation (yes/no)",
+      "value": "no",
+      "required": false
+    },	  
+    "GROUPANTILINK": {
+      "description": "Enable anti-link in groups (yes/no)",
+      "value": "yes",
+      "required": false
+    },
+    "CHATBOT": {
+      "description": "Enable text chatbot (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Enable welcoming message in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Enable  goodbye in groups (yes/no)",
+      "value": "no",
+      "required": false
+    },
+    "AUDIO_CHATBOT": {
+      "description": "Enable audio chatbot (yes/no)",
+      "value": "no",
       "required": false
     }
   },
   "formation": {
-    "worker": {
+    "web": {
       "quantity": 1,
-      "size": "standard-2x"
+      "size": "basic"
     }
   },
-  "addons": [
+  "buildpacks": [
     {
-      "plan": "heroku-postgresql:essential-0"
+      "url": "heroku/nodejs"
     }
   ]
 }
-
