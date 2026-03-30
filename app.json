@@ -137,14 +137,8 @@
     },
 
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    },
-    {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    },
-   {
-	  "url": "https://github.com/mojodna/heroku-buildpack-jemalloc.git"
-   }
+       "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    }
 
   ],
 
