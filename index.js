@@ -41,7 +41,7 @@ const { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter')
 //import chalk from 'chalk'
 const { verifierEtatJid , recupererActionJid } = require("./bdd/antilien");
 const { atbverifierEtatJid , atbrecupererActionJid } = require("./bdd/antibot");
-let evt = require(__dirname + "/framework/zokou");
+let evt = require(__dirname + "/session.json");
 const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("./bdd/banUser");
 const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd/banGroup");
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
