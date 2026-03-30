@@ -1,25 +1,22 @@
 {
-  "name": "whatsapp-bot",
-  "description": "MUNGAI MD BOT - Makes it easy and fun to use Whatsapp. World’s funniest UserBot made for WhatsApp.",
-  "repository": "https://github.com/254100934193/Yobih-Bug-Bot",
-  "logo": "https://telegra.ph/file/65b8e02615d6a44c81159.jpg",
+  "name": "mungai-MD",
+  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
   "keywords": [
-    "whatsbot",
-    "whatsapp-userbot",
-    "whatsapp-bot",
-    "whatsapp-userbot",
+    "bot",
+    "node",
+    "baileys",
     "whatsapp"
   ],
-  "buildpacks": [
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-    },
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
-    }
-  ],
+  "logo": "https://files.catbox.moe/4h8lfw.jpg",
+  "repository": "https://github.com/254100934193/Yobih-Bug-Bot",
+  "success_url": "/",
   "stack": "container",
-
+  "env": {
+    "PREFIX": {
+      "description": "Choose your bot's prefix",
+      "value": ".",
+      "required": true
+    },
       "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
@@ -67,11 +64,16 @@
       "required": false
     }
   },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
   "addons": [
     {
       "plan": "heroku-postgresql:essential-0"
     }
-
   ]
-
+}
 
