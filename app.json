@@ -67,9 +67,12 @@
       "required": false
     }
     },
-    "XTEAM_API": {
-      "description": "X-Team API. More details : https://github.com/mu-fazil-vk/whatsapp-bot/wiki/Create-API-from-X-Team",
-      "required": false
+ }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
     }
   ]
 }
+
