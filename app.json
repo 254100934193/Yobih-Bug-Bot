@@ -1,126 +1,75 @@
 {
-  "name":"mungai bot",
-  "description":"bot whatsapp développé par Mungai",
-  "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/254100934193/Yobih-Bug-Bot",
-  "succes_url":"/",
-  "stack":"container",
-  "env":{
-    "PREFIXE":
+  "name": "whatsapp-bot",
+  "description": "MUNGAI MD BOT - Makes it easy and fun to use Whatsapp. World’s funniest UserBot made for WhatsApp.",
+  "repository": "https://github.com/254100934193/Yobih-Bug-Bot",
+  "logo": "https://telegra.ph/file/65b8e02615d6a44c81159.jpg",
+  "keywords": [
+    "whatsbot",
+    "whatsapp-userbot",
+    "whatsapp-bot",
+    "whatsapp-userbot",
+    "whatsapp"
+  ],
+  "buildpacks": [
     {
-      "description":"choisissez votre préfixe",
-      "value":"#",
-      "required":true
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
     },
-    "LECTURE_AUTO_STATUS":
     {
-      "description":"le bot lira tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
-      "required":false
-    }, "TELECHARGER_AUTO_STATUS":
-    {
-      "description":"le bot téléchargera tous les status automatiquement (oui pour activer et non pour désactiver)",
-      "value":"oui",
-      "required":false
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome.git"
     }
-    ,
-    "NOM_BOT" : {
-       
-      "description":"Un nom pour votre bot",
-      "value":"Zokou-MD",
-      "required":false
+  ],
+  "stack": "container",
 
-    } ,
-     "LIENS_MENU" : {
-    
-      "description":"Ajoutez un ou plusieurs lien(s) d'image ou de video pour votre bot ; exemple : lien1,lien2,lien3......",
-      "value":"https://wallpapercave.com/uwp/uwp3943464.jpeg",
-      "required":false
-       
-     },
-
-     "PM_PERMIT" :
-     {
-      "description":"Les commandes seront pas fonctionnelles en priver pour les autres utilisateurs (oui pour activer et non pour désactiver)",
-      "value":"non",
-      "required":false
-    }
-    ,
-    "MODE_PUBLIC":
-    {
-      "description":"oui pour le mode public ou non pour le mode privé(Dans ce vous seul  utiliserez le bot)",
-      "value":"oui",
-      "required":false
-    }
-	,
-    "HEROKU_APY_KEY": {
-    "description": "inserez l'apikey de votre compte heroku",
-     "required" :false
+      "ANTI_DELETE_MESSAGE": {
+      "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
+      "value": "yes",
+      "required": false
     },
-  "HEROKU_APP_NAME": {
-    "description": "inserez le nom que vous avez inserez(APP NAME) au tout debut de la page",
-     "required" :false
-    }  
-	  ,
-    "ETAT":{
-		  "description":"marquez votre présence : 1 pour signaler que vous êtes en ligne même si vous ne l'êtes pas . 2 pour dire que vous êtes entrain d écrire un message. 3 pour signaler que vous êtes entrain de d enregistrer un audio . ou laissez le champs  vide pour signaler votre état réel.  ",
-		  "value":"1",
-		  "required": false
-	  },
-    "SESSION_ID":
-    {
-      "description":"veuillez renseigner votre id de session",   
-      "value":"",
-      "required":true
-      
+    
+    "ANTICALL_MSG": {
+      "description": "Type your anticall message to always send when calls are declined. You can leave it blank",
+      "value": "This is Keith personal assistant kindly leave a message",
+      "required": false
     },
-    "NOM_OWNER":
-    {
-    
-    "description": "Votre nom",
-    "required": false,
-    "value": "Djalega++"
-  },
-    "NUMERO_OWNER":
-  {
-    
-    "description": "Votre numero de telephone; il doit etre dans le format ID+numero",
-    "required":false,
-    "value": "22891733300"
-  },
-    
-
-    "WARN_COUNT":
-  {
-    "description": "il s'agit de nombre d'avertissement limite",
-    "required": false,
-    "value": "3"
-  },
-  "STARTING_BOT_MESSAGE":
-  {
-    "description": "Mettez oui si vous voulez avoir le message du bot qu'il vous envoie en pv ou non si vous en voulez pas",
-    "required": true,
-    "value": "oui"
-  },
-  "ANTI_DELETE_MESSAGE":
-  {
-    "description": "Mettez oui si vous voulez que les message supprimer vous sois envoyez en pv",
-    "required": false,
-    "value": "non"
+    "BOT_NAME": {
+      "description": "You must give a name for your bot",
+      "value": "",
+      "required": false
+    },
+    "TIMEZONE": {
+      "description": "Set your bot timezone",
+      "value": "Africa/Nairobi",
+      "required": false
+    },
+    "PUBLIC_MODE": {
+      "description": "Set 'yes' to make your bot public or 'no' to keep it private",
+      "value": "yes",
+      "required": false
+    },
+    "SESSION_ID": {
+      "description": "Enter your session ID, the code you receive after scanning the QR code",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Insert your name here",
+      "value": "",
+      "required": false
+    },
+    "URL": {
+      "description": "You must add your bot image URL",
+      "value": "https://files.catbox.moe/4h8lfw.jpg",
+      "required": false
+    },
+    "OWNER_NUMBER": {
+      "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
+      "value": "",
+      "required": false
+    }
+    },
+    "XTEAM_API": {
+      "description": "X-Team API. More details : https://github.com/mu-fazil-vk/whatsapp-bot/wiki/Create-API-from-X-Team",
+      "required": false
+    }
   }
-  },
-
-  "formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	},
-
-  "addons":[
-    {
-      "plan":"heroku-postgresql"
-    }
-  ]
 }
